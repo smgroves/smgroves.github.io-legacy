@@ -4,15 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Welcome to my site! I am currently a grad student in a cancer systems biology lab studying phenotypic transitions in Small Cell Lung Cancer. I love that the problems I get to solve allow me to apply physics and math, which I have a B.S. in from the College of William and Mary, to biological problems.
 
 
-[jekyll-organization]: https://github.com/jekyll
+![My husband Matthew and I at my White Coat Ceremony during my first year of grad school.](/Users/sarahmaddox/Git_Repos/smgroves.github.io/images/IMG_2186.jpeg)
