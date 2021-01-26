@@ -12,6 +12,8 @@ twitter_username: sarahmgroves
 github_username:  smgroves
 instagram_username: sarahmaddox4
 
+markdown: kramdown
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
