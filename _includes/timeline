@@ -1,7 +1,3 @@
----
-layout: compress
----
-<!doctype html>
 <div class="position-relative z-index-1 overflow-hidden padding-y-xl bg-contrast-lower">
     <div class="margin-bottom-lg">
       <h1 class="text-center">Vertical Timeline</h1>
