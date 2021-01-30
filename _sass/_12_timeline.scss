@@ -25,7 +25,7 @@ Usage: codyhouse.co/license
     left: calc((var(--v-timeline-marker-size) - var(--v-timeline-track-width))*0.5);
     height: 100%;
     width: var(--v-timeline-track-width);
-    background-color: alpha(var(--color-contrast-higher));
+    // background-color: alpha(var(--color-contrast-higher));
   }
 }
 
