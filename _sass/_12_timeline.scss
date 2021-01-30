@@ -1,0 +1,461 @@
+/* -------------------------------- 
+
+File#: _1_vertical-timeline
+Title: Vertical Timeline
+Descr: A vertical timeline used to display a sequence of events/steps
+Usage: codyhouse.co/license
+
+-------------------------------- */
+:root {
+  --v-timeline-marker-size: 16px; // dot indicator size
+  --v-timeline-track-width: 2px; // vertical track (line) width
+  --v-timeline-triangle-size: 12px; // triangle indicator size
+  --v-timeline-sections-gap: var(--space-lg); // gap between sections (section = marker + item/s)
+  --v-timeline-items-gap: var(--space-sm); // gap between items (if there are more than one within same date)
+}
+
+.v-timeline {
+  position: relative;
+  padding: var(--space-lg) 0; // y padding
+
+  &::before { // track
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc((var(--v-timeline-marker-size) - var(--v-timeline-track-width))*0.5);
+    height: 100%;
+    width: var(--v-timeline-track-width);
+    background-color: alpha(var(--color-contrast-higher), 0.1);
+  }
+}
+
+.v-timeline__section {
+  position: relative;
+  display: flex;
+  
+  &:not(:last-of-type) {
+    margin-bottom: var(--v-timeline-sections-gap); 
+  }
+}
+
+.v-timeline__marker {
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  height: var(--v-timeline-marker-size);
+  width: var(--v-timeline-marker-size);
+  border-radius: 50%;
+  margin-right: calc(var(--v-timeline-triangle-size) + var(--space-xxs));
+}
+
+.v-timeline__item {
+  position: relative;
+  top: calc(0.5 * var(--v-timeline-marker-size));
+  flex-grow: 1;
+
+  &::before { // triangle indicator
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(-1 * var(--v-timeline-triangle-size) + 1px);
+    height: var(--v-timeline-triangle-size);
+    width: var(--v-timeline-triangle-size);
+    background-color: inherit;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  }
+
+  &:not(:last-child) {
+    margin-bottom: var(--v-timeline-items-gap); // gap between timeline items
+  }
+
+  &:not(:first-child) {
+    .v-timeline__date {
+      display: none; // hide date if not first item
+    }
+
+    &::before {
+      display: none; // hide triangle if not first item
+    }
+  }
+}
+
+.v-timeline__date-value { // date label
+  color: var(--color-contrast-medium);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+@include breakpoint(md, "not all") { // style applied only before breakpoint 'md'
+  .v-timeline__item:first-child {
+    border-top-left-radius: 0;
+  }
+}
+
+@include breakpoint(md) { // edit timeline layout
+  .v-timeline::before { // track
+    left: calc(50% - var(--v-timeline-track-width)/2);
+  }
+
+  .v-timeline__section {
+    width: calc(50% + var(--v-timeline-marker-size)/2);
+    
+    &:nth-child(odd) {
+      flex-direction: row-reverse;
+
+      .v-timeline__marker {
+        margin-right: 0;
+        margin-left: calc(var(--v-timeline-triangle-size) + var(--space-xxs));
+      }
+
+      .v-timeline__item {
+        &::before { // push triangle to the right
+          left: auto;
+          right: calc(-1 * var(--v-timeline-triangle-size) + 1px);
+          transform: scaleX(-1);
+        }
+
+        &:first-child {
+          border-top-right-radius: 0;
+        }
+      }
+
+      .v-timeline__date {
+        right: calc(-2 * (var(--v-timeline-triangle-size) + var(--space-xxs)) - var(--v-timeline-marker-size));
+        transform: translateX(100%) translateY(-50%);
+      }
+    }
+
+    &:nth-child(even) {
+      margin-left: auto;
+
+      .v-timeline__item {
+        &:first-child {
+          border-top-left-radius: 0;
+        }
+      }
+
+      .v-timeline__date {
+        left: calc(-2 * (var(--v-timeline-triangle-size) + var(--space-xxs)) - var(--v-timeline-marker-size));
+        transform: translateX(-100%) translateY(-50%);
+      }
+    }
+  }
+
+  .v-timeline__section--is-hidden {
+    opacity: 0; // used in JS to hide section before the animation
+  }
+
+  .v-timeline__date {
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+
+  // animations
+  .js {
+    .v-timeline[data-animation="on"] {
+      .v-timeline__marker {
+        opacity: 0;
+        transform: scale(0.5);
+        transition: transform .6s var(--ease-out), opacity .6s;
+      }
+  
+      .v-timeline__item {
+        opacity: 0;
+        transition: transform .6s var(--ease-out), opacity .6s;
+      }
+  
+      .v-timeline__section {
+        &:nth-child(odd) .v-timeline__item {
+          transform: translateX(-50px);
+        }
+  
+        &:nth-child(even) .v-timeline__item {
+          transform: translateX(50px);
+        }
+      }
+  
+      .v-timeline__section--animate {
+        .v-timeline__item {
+          transform: translateX(0) !important;
+          opacity: 1;
+        }
+  
+        .v-timeline__marker {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+// --icons
+.v-timeline--icons {
+  --v-timeline-marker-size: 3em;
+}
+
+// @import '../../../../../codyhouse-framework/main/assets/css/style.scss'; // ⚠️ make sure to import the CodyHouse framework
+// @import url('https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700'); // custom font
+
+// // -------------------------------------------------
+
+// // Responsive Vertical Timeline - by CodyHouse.co
+
+// // -------------------------------------------------
+
+// :root {
+//   // colors
+//   @include defineColorHSL(--cd-color-1, 206, 21%, 24%); // Navy
+//   @include defineColorHSL(--cd-color-2, 205, 38%, 89%); // Blue
+//   @include defineColorHSL(--cd-color-3, 207, 10%, 55%); // Grey
+//   @include defineColorHSL(--cd-color-4, 111, 51%, 60%); // Green
+//   @include defineColorHSL(--cd-color-5, 356, 53%, 49%); // Red
+//   @include defineColorHSL(--cd-color-6, 47, 85%, 61%);  // Yellow
+
+//   // header
+//   --cd-header-height: 200px;
+
+//   // font
+//   --font-primary: 'Droid Serif', serif;
+//   --font-secondary: 'Open Sans', sans-serif;
+// }
+
+// @supports(--css: variables) {
+//   :root {
+//     @include breakpoint(md) {
+//       --cd-header-height:  300px;
+//     }
+//   }
+// }
+
+// .cd-main-header {
+//   height: var(--cd-header-height);
+//   background: var(--cd-color-1);
+//   color: var(--color-white);
+//   @include fontSmooth;
+
+//   h1 {
+//     font-family: var(--font-secondary);
+//     color: inherit;
+//   }
+// }
+
+// .cd-timeline {
+//   overflow: hidden;
+//   padding: var(--space-lg) 0;
+//   color: var(--cd-color-3);
+//   background-color: lightness(var(--cd-color-2), 1.05);
+//   font-family: var(--font-primary);
+
+//   h2 {
+//     font-family: var(--font-secondary);
+//     font-weight: 700;
+//   }
+// }
+
+// .cd-timeline__container {
+//   position: relative;
+//   padding: var(--space-md) 0;
+
+//   &::before { // this is the timeline vertical line
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 18px;
+//     height: 100%;
+//     width: 4px;
+//     background: var(--cd-color-2);
+//   }
+
+//   @include breakpoint(md) {
+//     &::before {
+//       left: 50%;
+//       transform: translateX(-50%);
+//     }
+
+//   }
+// }
+
+// .cd-timeline__block {
+//   display: flex;
+//   position: relative;
+//   z-index: 1; // make sure content is above the timeline vertical line
+//   margin-bottom: var(--space-lg);
+
+//   &:last-child {
+//     margin-bottom: 0;
+//   }
+
+//   @include breakpoint(md) {
+//     &:nth-child(even) {
+//       flex-direction: row-reverse; // for even blocks -> lay out content from right to left
+//     }
+//   }
+// }
+
+// .cd-timeline__img {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-shrink: 0;
+//   width: 40px;
+//   height: 40px;
+//   border-radius: 50%;
+//   box-shadow: 0 0 0 4px var(--color-white), inset 0 2px 0 rgba(#000, 0.08), 0 3px 0 4px rgba(#000, 0.05);
+
+//   img {
+//     width: 24px;
+//     height: 24px;
+//   }
+
+//   @include breakpoint(md) {
+//     width: 60px;
+//     height: 60px;
+//     order: 1; // flex order -> place the image after cd-timeline__content
+//     margin-left: calc(5% - 30px);
+//     will-change: transform;
+
+//     .cd-timeline__block:nth-child(even) & {
+//       margin-right: calc(5% - 30px);
+//     }
+//   }
+// }
+
+// .cd-timeline__img--picture {
+//   background-color: var(--cd-color-4);
+// }
+
+// .cd-timeline__img--movie {
+//   background-color: var(--cd-color-5);
+// }
+
+// .cd-timeline__img--location {
+//   background-color: var(--cd-color-6);
+// }
+
+// .cd-timeline__content {
+//   flex-grow: 1; // expand element so that it takes up all the available space inside its parent
+//   position: relative;
+//   margin-left: var(--space-md);
+//   background: var(--color-white);
+//   border-radius: var(--radius-md);
+//   padding: var(--space-md);
+//   box-shadow: 0 3px 0 var(--cd-color-2); 
+
+//   &::before { // triangle next to content block
+//     content: '';
+//     position: absolute;
+//     top: 16px;
+//     right: 100%;
+//     @include triangle(left, 7px, var(--color-white));
+//   }
+
+//   h2 {
+//     color: var(--cd-color-1);
+//   }
+
+//   @include breakpoint(md) {
+//     width: 45%;
+//     flex-grow: 0; // prevent element from growing inside its parent
+//     will-change: transform;
+//     margin: 0;
+//     font-size: 0.8em;
+//     --line-height-multiplier: 1.2;
+
+//     &::before { // triangle
+//       top: 24px;
+//     }
+
+//     .cd-timeline__block:nth-child(odd) &::before { // change triangle direction
+//       right: auto;
+//       left: 100%;
+//       @include triangle(right, 7px, var(--color-white)); 
+//     }
+//   }
+// }
+
+// .cd-timeline__date {
+//   color: alpha(var(--cd-color-3), 0.7);
+
+//   @include breakpoint(md) {
+//     position: absolute;
+//     width: 100%;
+//     left: 120%;
+//     top: 20px;
+
+//     .cd-timeline__block:nth-child(even) & {
+//       left: auto;
+//       right: 120%;
+//       text-align: right;
+//     }
+//   }
+// }
+
+// @include breakpoint(md) { // animations
+//   .cd-timeline__img--hidden, .cd-timeline__content--hidden {
+//     visibility: hidden;
+//   }
+
+//   .cd-timeline__img--bounce-in {
+//     animation: cd-bounce-1 0.6s;
+//   }
+
+//   .cd-timeline__content--bounce-in {
+//     animation: cd-bounce-2 0.6s;       
+//   }
+
+//   .cd-timeline__block:nth-child(even) .cd-timeline__content--bounce-in {
+//     animation-name: cd-bounce-2-inverse; 
+//   }
+// }
+
+
+// @keyframes cd-bounce-1 {
+//   0% {
+//     opacity: 0;
+//     transform: scale(0.5);
+//   }
+//   60% {
+//     opacity: 1;
+//     transform: scale(1.2);
+//   }
+//   100% {
+//     transform: scale(1);    
+//   }
+// }
+
+// @keyframes cd-bounce-2 {
+//   0% {
+//     opacity: 0;
+//     transform: translateX(-100px);   
+//   }
+
+//   60% {
+//     opacity: 1;
+//     transform: translateX(20px);       
+//   }
+
+//   100% {
+//     transform: translateX(0);       
+//   }
+// }
+
+// @keyframes cd-bounce-2-inverse {
+//   0% {
+//     opacity: 0;
+//     transform: translateX(100px);   
+//   }
+
+//   60% {
+//     opacity: 1;
+//     transform: translateX(-20px);
+//   }
+
+//   100% {
+//     transform: translateX(0);    
+//   }
+// }
