@@ -8,27 +8,20 @@ header:
 ---
 Welcome to my site! I am currently a grad student in a cancer systems biology lab and Vanderbilt University. I study phenotypic transitions in Small Cell Lung Cancer. After receiving a B.S. in physics and math from The College of William and Mary, I entered Vanderbilt as a student in their quantitative and chemical biology program. I currently am a PhD candidate in the Quaranta Lab. I love that my project requires me to apply physics and math to biological problems.
 
+## Education
 
-=”[cmr10]”
-
-Education
-=========
-
-<span>r|p<span>12cm</span></span>
-
-Current & PhD Candidate in Chemical and Physical Biology, **Vanderbilt
-University**, Nashville, TN\
-& Advisor: Dr. Vito Quaranta, M.D., Professor of Biochemistry and
-Pharmacology\
-\
-
-2012-2016 & Bachelors of Science in Physics and Mathematics, **College
-of William and Mary**, Williamsburg, VA\
-\
+Current | PhD Candidate in Chemical and Physical Biology, **Vanderbilt
+University**, Nashville, TN
+Advisor: Dr. Vito Quaranta, M.D., Professor of Biochemistry and
+Pharmacology
 
 
-Research Experience
-===================
+2012-2016 | Bachelors of Science in Physics and Mathematics, **College
+of William and Mary**, Williamsburg, VA
+
+
+
+## Research Experience
 
 <span>r|p<span>11cm</span></span>
 
@@ -65,19 +58,7 @@ Williamsburg, VA\
 &*Global Fits to the Precision Proton Form Factor Data from Mainz*\
 &
 
-Honors and Awards
-=================
-
-<span>r|p<span>11cm</span></span> 2017-2022 & NSF Graduate Research
-Fellowship Program (GRFP) Fellow\
-& Vanderbilt University\
-2012-2016 & James Monroe Scholar\
-& College of William and Mary\
-2012-2016 & Academic Dean’s List\
-& College of William and Mary\
-
-Invited Talks
-=============
+## Invited Talks
 
 <span>r|p<span>11cm</span></span> December 2020 & *Quantifying
 Plasticity of Single Cells in SCLC*\
@@ -107,8 +88,7 @@ March 2019 & *Introduction to RNA Velocity*\
 October 2018 & *Introduction to SCLC Mouse Models*\
 & SCLC U54 Data Club, Vanderbilt University, TN\
 
-Poster Presentations
-====================
+## Poster Presentations
 
 <span>r|p<span>11cm</span></span> March 2020 & A new ASCL1+ subtype,
 A2p, forms a plastic, transit-amplifying compartment of SCLC tumors\
@@ -131,53 +111,11 @@ October 2017 & CSBC Annual Meeting,\
 August 2017 & International Conference on Systems Biology,\
 & Virginia Tech, Blacksburg, VA\
 
-Scientific Meetings
-===================
-
-<span>r|p<span>11cm</span></span> December 2020 & Multidisciplinary
-Approaches to Understand Cancer Treatment Resistance, NCI Cancer Target
-Discovery and Development (CTD2) Network and Cancer Systems Biology
-Consortium (CSBC) Virtual Meeting,\
-& Washington, DC\
-December 2020 & Vanderbilt Center for Cancer Systems Biology (CCSB)
-Tumor Plasticity Virtual Think Tank Meeting,\
-& Nashville, TN\
-October 2020 & Japan Society for Promotion of Science (JSPS) 2020
-Core-to-Core Online Meeting,\
-& Osaka, Sapporo, Tokyo, JAPAN\
-August 2020 & Junior Investigator (JI) Virtual Meeting for the NCI
-Cancer Systems Biology Consortium,\
-& Washington, DC\
-June 2020 & Single-Cell Cancer Biology, GRC, Newry, ME\*\*\*\
-March 2020 & SCLC Consortium Annual Meeting, Washington, DC\*\*\
-November 2019 & Single Cell Analysis, CSHL,\
-& Long Island, NY\
-October 2019 & Second Annual Symposium on Multiscale Cell Fate, UCI,\
-& Irvine, CA\
-April 2019 & International Association for the Study of Lung Cancer
-(IASLC) SCLC Meeting,\
-& New York City, NY\
-January 2019 & Stochastic Physics in Biology, GRC,\
-& Ventura, CA\
-September 2018 & Cancer Systems Biology Consortium (CSBC) Annual
-Meeting,\
-& NIH, Bethesda, MD\
-June 2018 & International Conference on Systems Biology of Human
-Diseases,\
-& Los Angeles, CA\
-October 2017 & CSBC Annual Meeting, Broad Institute, Cambridge, MA\
-August 2017 & International Conference on Systems Biology,\
-& Virginia Tech, Blacksburg, VA\
-March 2017 & Japan Society for Promotion of Science (JSPS) Core-To-Core
-Research Meeting, Vanderbilt,\
-& Nashville, TN\
-
 \*\* Conference was moved to online format due to coronavirus shutdowns.
 
 \*\*\* Conference was canceled due to coronavirus shutdowns.
 
-Fellowships
-===========
+## Fellowships
 
 <span>rl</span>
 
@@ -188,8 +126,7 @@ Science Trainee,\
 1445197\
 & \
 
-Professional Experience
-=======================
+## Professional Experience
 
 <span>r|p<span>11cm</span></span> Spring 2021 & Mentor for Lab Rotation
 Student, Vanderbilt University\
@@ -214,8 +151,8 @@ Spring 2018 & Mentor for Lab Rotation Student, Vanderbilt University\
 Fall 2013 & Teaching Assistant for Foundations of Higher Mathematics
 course, College of William and Mary\
 
-Academic and Community Service
-==============================
+## Academic and Community Service
+
 
 <span>r|p<span>11cm</span></span> 2019-Current & Volunteer at Vanderbilt
 Student Volunteers for Science, Vanderbilt University\
@@ -239,8 +176,7 @@ Engineering, Vanderbilt University\
 † Last two science lessons in the Spring 2020 session were canceled due
 to coronavirus restrictions.
 
-References
-==========
+## References
 
 <span>lr</span>
 
