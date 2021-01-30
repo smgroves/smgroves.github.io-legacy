@@ -1,104 +1,116 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title></title>
-  <meta name="description" content="">
-
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/style.css">
-
-  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Responsive Vertical Timeline | CodyHouse</title>
 </head>
 <body>
-  <div id="page">
-    <header id="header">
-      <div class="main-header clearfix">
-        <h1>Balance Media's Vertical Timeline</h1>
-      </div>
-    </header>
+	<header class="cd-main-header text-center flex flex-column flex-center">
+    <h1>Responsive Vertical Timeline</h1>
+    <p class="margin-top-sm">👈<a class="color-inherit" href="https://codyhouse.co/gem/vertical-timeline/">Article &amp; Download</a></p>
+  </header>
 
+  <section class="cd-timeline js-cd-timeline">
+    <div class="container max-width-lg cd-timeline__container">
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
 
-    <div role="main" class="clearfix">
+        <div class="cd-timeline__content text-component">
+          <h2>Title of section 1</h2>
+          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
 
-      <div id="buttons">
-        <div id="expand-collapse-buttons">
-          <a class="expand-all active" href="#"><span>EXPAND ALL</span></a>
-          <a class="collapse-all" href="#"><span>COLLAPSE ALL</span></a>
-        </div>
-        <div id="sort-buttons">
-          <a class="sort-newest active" href="#"><span>NEWEST FIRST</span></a>
-          <a class="sort-oldest" href="#"><span>OLDEST FIRST</span></a>
-        </div>
-      </div>
-
-      <div id="timeline">
-
-        <div id="line-container">
-          <div id="line"></div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-
-  <script src="js/handlebars.js"></script>
-  <script src="js/tabletop.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/script.js"></script>
-
-  <script id="year-marker-template" type="text/x-handlebars-template">
-    <div class="item year-marker">
-      <div class="inner">
-        <div class="inner2">
-          <div class="timestamp">{{timestamp}}</div>
-          <div class="year">{{year}}</div>
-        </div>
-      </div>
-    </div>
-  </script>
-
-  <script id="post-template" type="text/x-handlebars-template">
-    <div class="item post">
-      <div class="inner">
-        <div class="timestamp">{{timestamp}}</div>
-        <div class="title"><h3>{{title}}</h3></div>
-        <div class="date">{{display_date}}</div>
-        <div class="body">
-          {{#if photo_url}}
-            <img src="{{photo_url}}" alt="">
-          {{/if}}
-          {{#if caption}}
-            <div class="caption">({{caption}})</div>
-          {{/if}}
-          {{#if body}}
-            <div class="text">{{body}}</div>
-          {{/if}}
-          <div class="clearfix">
-            {{#if read_more_url}}
-              <a target="_blank" class="more" href="{{read_more_url}}">READ MORE</a>
-              <div class="share">
-                <a href="#" class="share-trigger"></a>
-                <div class="share-popup">
-                  <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{read_more_url}}" data-text="{{title}}" data-count="none">Tweet</a>
-                  <a class="facebook-share-button" name="fb_share" type="button" share_url="{{read_more_url}}">Share</a>
-                </div>
-              </div>
-            {{/if}}
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Jan 14</span>
+            <a href="#0" class="btn btn--subtle">Read more</a>
           </div>
-        </div>
-      </div>
-    </div>
-  </script>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
 
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--movie">
+          <img src="assets/img/cd-icon-movie.svg" alt="Movie">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Title of section 2</h2>
+          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+          
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Jan 18</span>
+            <a href="#0" class="btn btn--subtle">Read more</a>
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--picture">
+          <img src="assets/img/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Title of section 3</h2>
+          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Jan 24</span>
+            <a href="#0" class="btn btn--subtle">Read more</a>
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--location">
+          <img src="assets/img/cd-icon-location.svg" alt="Location">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Title of section 4</h2>
+          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Feb 14</span>
+            <a href="#0" class="btn btn--subtle">Read more</a>
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--location">
+          <img src="assets/img/cd-icon-location.svg" alt="Location">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Title of section 5</h2>
+          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Feb 18</span>
+            <a href="#0" class="btn btn--subtle">Read more</a>
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--movie">
+          <img src="assets/img/cd-icon-movie.svg" alt="Movie">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Final Section</h2>
+          <p class="color-contrast-medium">This is the content of the last section</p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Feb 26</span>
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+    </div>
+  </section> <!-- cd-timeline -->
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
