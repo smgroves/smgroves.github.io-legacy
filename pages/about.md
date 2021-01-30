@@ -76,11 +76,11 @@ March 2020 | *A new ASCL1+ subtype, A2p, forms a plastic,
 transit-amplifying compartment of SCLC tumors*
  Small Cell Lung Cancer Consortium Annual Meeting, Washington, DC**
 
-February 2020 | *Introduction to RNA Velocity *
+February 2020 | *Introduction to RNA Velocity*
  Introduction to Single Cell Sequencing Analysis course, Vanderbilt
 University, TN
 
-October 2019 | * Network Control of Phenotypic Plasticity in Cancer *
+October 2019 | * Network Control of Phenotypic Plasticity in Cancer*
  Quantitative Systems Biology Consortium, Vanderbilt University, TN
 
 September 2019 | *Introduction to Genomic Sequencing*

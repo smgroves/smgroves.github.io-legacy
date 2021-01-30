@@ -5,19 +5,28 @@
 - title: "About Me"
   url: "/about/"
   side: left
+  dropdown:
+  - title: Current Research
+    url: "/about/current/"
+  - title: Education & Research
+    url: "/about/education/"
+  - title: Talks & Posters
+    url: "/about/talks/"
+  - title: Mentorship & Community 
+    url: "/about/mentorship/"    
 
 - title: "Publications"
   url: "/publications/"
   side: left
 
-- title: "Code"
-  url: "/code/"
+- title: "Projects"
+  url: "/projects/"
   side: left
   dropdown:
   - title: "BooleaBayes"
-    url: "/code/booleabayes/"
+    url: "/projects/booleabayes/"
   - title: "MazeBox"
-    url: "/code/mazebox/"
+    url: "/projects/mazebox/"
 
 - title: Blog
   url: "/blog/"

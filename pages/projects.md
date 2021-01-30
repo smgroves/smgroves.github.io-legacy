@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-title: "Computational Tools"
+title: "Computational Tools and Projects"
 header:
    image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/design/"
