@@ -14,7 +14,7 @@ title: 'Sarah Maddox Groves'
 slogan: 'Cancer Researcher, Health Enthusiast, Type 1 Diabetic'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'PhD Candidate studying Cancer Systems Biology at Vanderbilt University'
+description: 'My website catalogs my scientific publications, science communication blog posts, and musings.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'

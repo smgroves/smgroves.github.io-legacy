@@ -10,5 +10,10 @@
 
 - name: email
   url: mailto:sarahmaddoxgroves@gmail.com
-  class: fa fa-envelope-o fa-3x wow bounceIn
+  class: icon-email
   title: "Email me"
+
+- name: Google Scolar
+  url: https://scholar.google.com/citations?user=2GYnwRkAAAAJ&hl=en
+  class: icon-google
+  title: "Find me on Google Scholar"
