@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_12.jpg
+  image_fullwidth: header_home.jpg
 widget1:
   title: "Blog & Portfolio"
   url: 'http://smgroves.github.io/blog/'
