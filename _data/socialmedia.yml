@@ -17,3 +17,8 @@
   url: https://scholar.google.com/citations?user=2GYnwRkAAAAJ&hl=en
   class: icon-google
   title: "Find me on Google Scholar"
+
+- name: Facebook
+  url: https://www.facebook.com/sarah.maddox.96/
+  class: icon-facebook
+  title: "Find me on Facebook"
