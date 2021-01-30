@@ -10,7 +10,7 @@
 
 - name: Google Scolar
   url: https://scholar.google.com/citations?user=2GYnwRkAAAAJ&hl=en
-  class: ai ai-google-scholar-square ai-3x
+  class: fa fa-google
   title: "Find me on Google Scholar"
 
 - name: Facebook
