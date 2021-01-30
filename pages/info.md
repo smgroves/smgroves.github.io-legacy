@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: "About Me"
 subheadline: "Who am I?"
 permalink: "/about/"
 header:

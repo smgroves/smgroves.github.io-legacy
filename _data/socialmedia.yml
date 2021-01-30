@@ -10,7 +10,7 @@
 
 - name: email
   url: mailto:sarahmaddoxgroves@gmail.com
-  class: fa fa-email
+  class: fa fa-envelope
   title: "Email me"
 
 - name: Google Scolar
