@@ -1,24 +1,24 @@
 - name: GitHub
   url: http://github.com/smgroves
-  class: icon-github
+  class: fa fa-github
   title: "View Code on Github"
 
 - name: Twitter
   url: http://twitter.com/sarahmgroves
-  class: icon-twitter
+  class: fa fa-twitter
   title: "Follow Sarah Groves on Twitter"
 
 - name: email
   url: mailto:sarahmaddoxgroves@gmail.com
-  class: icon-email
+  class: fa fa-email
   title: "Email me"
 
 - name: Google Scolar
   url: https://scholar.google.com/citations?user=2GYnwRkAAAAJ&hl=en
-  class: fab fa-google
+  class: fa fa-google
   title: "Find me on Google Scholar"
 
 - name: Facebook
   url: https://www.facebook.com/sarah.maddox.96/
-  class: icon-facebook
+  class: fa fa-facebook
   title: "Find me on Facebook"
