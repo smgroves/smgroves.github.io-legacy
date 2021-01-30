@@ -6,6 +6,8 @@ Descr: A vertical timeline used to display a sequence of events/steps
 Usage: codyhouse.co/license
 
 -------------------------------- */
+@import "breakpoint";
+
 :root {
   --v-timeline-marker-size: 16px; // dot indicator size
   --v-timeline-track-width: 2px; // vertical track (line) width
