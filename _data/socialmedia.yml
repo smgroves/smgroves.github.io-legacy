@@ -9,6 +9,6 @@
   title: "Follow Sarah Groves on Twitter"
 
 - name: email
-url: mailto:sarahmaddoxgroves@gmail.com
-class: fa fa-envelope-o fa-3x wow bounceIn
-title: "Email me"
+  url: mailto:sarahmaddoxgroves@gmail.com
+  class: fa fa-envelope-o fa-3x wow bounceIn
+  title: "Email me"
