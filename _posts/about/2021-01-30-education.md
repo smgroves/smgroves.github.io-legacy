@@ -8,7 +8,8 @@ tags:
     - about
     - education
     - research
-header: yes
+header:
+    image_fullwidth: "header_drop.jpg"
 permalink: "/about/education/"
 ---
 
