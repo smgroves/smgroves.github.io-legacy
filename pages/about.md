@@ -7,24 +7,12 @@ header:
     image_fullwidth: "header_drop.jpg"
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-strong { 
-  font-weight: bold;
-  font-size: 20;
-}
-</style>
-</head>
-<body>
-
 
 Welcome to my site! I am currently a grad student in a cancer systems biology lab and Vanderbilt University. I study phenotypic transitions in Small Cell Lung Cancer. After receiving a B.S. in physics and math from The College of William and Mary, I entered Vanderbilt as a student in their quantitative and chemical biology program. I currently am a PhD candidate in the Quaranta Lab. I love that my project requires me to apply physics and math to biological problems.
 
 <ul>
     {% for post in site.categories.about %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><stronglist>{{ post.title }}</stronglist></a></li>
     {% endfor %}
 </ul>
 
@@ -41,5 +29,3 @@ NIH 1T32LM012412-01
 2017-2021 | NSF Graduate Research Fellowships Program Fellow, DGE -
 1445197
  
-</body>
-</html>
