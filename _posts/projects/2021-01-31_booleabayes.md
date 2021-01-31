@@ -14,3 +14,6 @@ header:
 permalink: "/projects/booleabayes/"
 ---
 
+
+## Poster Presentations
+Posters that have been accepted and presented at National and International conferences. Click on a thumbnail below to view full poster.
