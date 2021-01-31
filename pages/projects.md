@@ -7,7 +7,7 @@ header:
 permalink: "/projects/"
 ---
 <ul>
-    {% for post in site.categories.code %}
+    {% for post in site.categories.projects %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
