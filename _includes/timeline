@@ -1,6 +1,6 @@
 <div class="position-relative z-index-1 overflow-hidden padding-y-xl bg-contrast-lower">
     <div class="margin-bottom-lg">
-      <h1 class="text-center">Vertical Timeline</h1>
+      <h1 class="text-center">Invited Talks</h1>
     </div>
   
     <div class="container max-width-adaptive-lg">
@@ -11,17 +11,18 @@
           <div class="v-timeline__items-group">
             <div class="v-timeline__item bg padding-md radius-md shadow-xs">
               <div class="v-timeline__date margin-bottom-sm">
-                <time class="v-timeline__date-value" datetime="2020-03-18T00:00">Mar 18, 2020</time>
+                <time class="v-timeline__date-value" datetime="2020-12T00:00">December, 2020</time>
               </div>
     
               <div class="text-component">
-                <h2>Title of item 1</h2>
+                <h2>Quantifying Plasticity of Single Cells in SCLC</h2>
       
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic dicta, quos reprehenderit quidem omnis officiis fuga nostrum.</p>
+                <p>Vanderbilt Center for Cancer Systems Biology (CCSB) Tumor Plasticity
+                Virtual Think Tank Meeting, Nashville, TN</p>
               </div>
     
               <div class="margin-top-md">
-                <a class="btn btn--primary" href="#0">Read More</a>
+                <a class="btn btn--primary" href=https://smgroves.github.io/docs/Vanderbilt_CCSB_Think_Tank_Program.pdf"">Read More</a>
               </div>
             </div>
           </div>
@@ -33,17 +34,19 @@
           <div class="v-timeline__items-group">
             <div class="v-timeline__item bg padding-md radius-md shadow-xs">
               <div class="v-timeline__date margin-bottom-sm">
-                <time class="v-timeline__date-value" datetime="2020-03-26T00:00">Mar 26, 2020</time>
+                <time class="v-timeline__date-value" datetime="2020-10T00:00">October, 2020</time>
               </div>
     
               <div class="text-component">
-                <h2>Title of item 2</h2>
+                <h2>Cell Transport Potential (CTrP), a novel metric of
+cancer cell plasticity based on RNA velocity </h2>
       
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex numquam eveniet earum ad ratione reprehenderit nihil, mollitia adipisci cum eaque?</p>
+                <p>Japan Society for Promotion of Science (JSPS) 2020 Core-to-Core Online
+Meeting, Osaka, Sapporo, Tokyo, JAPAN</p>
               </div>
     
               <div class="margin-top-md">
-                <a class="btn btn--primary" href="#0">Read More</a>
+                <a class="btn btn--primary" href="https://quantsystemsbc.com/event/core-to-core-meeting/">Read More</a>
               </div>
             </div>
   
