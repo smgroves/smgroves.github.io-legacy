@@ -1,6 +1,7 @@
 ---
 layout: page
 show_meta: false
+subheadline:  "Research"
 title: "Computational Tools and Projects"
 header:
    image_fullwidth: "header_3.jpg"

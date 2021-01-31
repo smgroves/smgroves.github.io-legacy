@@ -1,5 +1,6 @@
 ---
 layout: page
+subheadline:  "Contributions to Science"
 title: "Publications"
 permalink: "/publications/"
 header:

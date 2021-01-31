@@ -1,5 +1,6 @@
 ---
 layout: page
+subheadline:  "Research"
 title:  "Education & Research Experience"
 teaser: "Timeline of my education and research experiences."
 categories:

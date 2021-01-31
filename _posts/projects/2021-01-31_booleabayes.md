@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline:  "Computational Contributions to Science"
+subheadline:  "Research"
 title:  "BooleaBayes"
 teaser: "Code written to analyze transcription factor networks for Small Cell Lung Cancer phenotypes."
 categories:
