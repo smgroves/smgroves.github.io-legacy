@@ -9,6 +9,12 @@ permalink: "/projects/"
 ---
 <ul>
     {% for post in site.categories.projects %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><stronglist>{{ post.title }}</stronglist></a></li>
+    {% endfor %}
+</ul>
+
+<ul>
+    {% for post in site.categories.about %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><stronglist>{{ post.title }}</stronglist></a></li>
     {% endfor %}
 </ul>
