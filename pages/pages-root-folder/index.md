@@ -15,7 +15,7 @@ widget1:
 widget2:
   title: "Projects & Code"
   url: 'http://smgroves.github.io/projects/'
-  image: widget-github-303x182.jpg
+  image: widget-2.jpg
   text: ''
 widget3:
   title: "Current Research"
