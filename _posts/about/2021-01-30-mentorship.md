@@ -9,7 +9,7 @@ tags:
     - mentorship
     - community
 header:
-    image_fullwidth: "header_drop.jpg"
+    image_fullwidth: "header_8.jpg"
 permalink: "/about/mentorship/"
 ---
 

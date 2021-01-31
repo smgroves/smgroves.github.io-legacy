@@ -9,7 +9,7 @@ tags:
     - education
     - research
 header:
-    image_fullwidth: "header_drop.jpg"
+    image_fullwidth: "header_7.jpg"
 permalink: "/about/education/"
 ---
 
