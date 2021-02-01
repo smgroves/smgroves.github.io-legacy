@@ -91,4 +91,3 @@ Planned and organized various scientific outreach activities with local organiza
 to coronavirus restrictions.
 
 
-{% include list-posts category='about' %}

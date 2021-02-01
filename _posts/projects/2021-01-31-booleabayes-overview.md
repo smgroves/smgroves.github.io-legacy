@@ -25,8 +25,7 @@ permalink: "/projects/booleabayes/"
 ## Part 4: How good is our model?
 
 ## Part 5: So... can we cure Small Cell Lung Cancer yet?
-<ul>
-    {% for post in site.tags.booleabayes %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><stronglist>{{ post.title }}</stronglist></a></li>
-    {% endfor %}
-</ul>
+
+## Links to all posts
+{% include list-posts tag='booleabayes' %}
+
