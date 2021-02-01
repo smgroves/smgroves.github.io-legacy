@@ -1,5 +1,6 @@
 ---
 layout: page
+breadcrumb: true
 subheadline:  "Research"
 title:  "Education & Research Experience"
 teaser: "Timeline of my education and research experiences."

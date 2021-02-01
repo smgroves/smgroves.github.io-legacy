@@ -1,5 +1,6 @@
 ---
 layout: page
+breadcrumb: true
 subheadline:  "Broader Impact"
 title:  "Mentorship and Service"
 teaser: "Mentorship, professional experiences, & academic and community service."
@@ -90,4 +91,4 @@ Planned and organized various scientific outreach activities with local organiza
 to coronavirus restrictions.
 
 
-{% include list-posts tag='header' %}
+{% include list-posts category='about' %}
