@@ -3,7 +3,7 @@ layout: page-fullwidth
 breadcrumb: true
 
 subheadline:  "Contributions to Science"
-title:  "BooleaBayes"
+title:  "BooleaBayes Part 1: The Why"
 teaser: "This analysis was written to analyze transcription factor networks for Small Cell Lung Cancer phenotypes. I've written a primer on gene regulatory network dynamics and how our computational tool is able to define them and make predictions about the future using gene expression data-- RNA sequencing data that tells you the identity of a population of cells."
 categories:
     - projects
@@ -12,9 +12,10 @@ tags:
     - code
     - networks
     - contributions
+    - booleabayes
 header:
     image_fullwidth: "header_11.jpg"
-permalink: "/projects/booleabayes/"
+permalink: "/projects/booleabayes/1/"
 ---
 
 Have you ever thought about how different cells in your body came to be? You may have heard that you have a particular *genome* that is shared by virtually all of your cells. So why does, for example, a heart cell act so differently from a lung cell? How does a cell located in your heart learn to "turn on" heart cell functions, and "turn off" lung cell functions? And if you took that heart cell and moved it to the lung, would it be able to change its function and start acting like a lung cell?
@@ -69,16 +70,7 @@ Genetic instability is accompanied by non-genetic instability, or “plasticity,
 
 So now we come to the problems we are trying to solve: *how do cancer cells change their identities, and what can we do to stop them from changing into resistant cell types?* Our answer: control the underlying regulatory network to control cell identity and keep the cells from becoming resistant in the first place. This is what the BooleaBayes computational tool does: it figures out the specifics of the GRN (how the transcription factors affect the expression of genes and which ones), and uses it to predict what would happen to each cell type if we were to make a sudden change in the network. If we find a change we can make that keeps the cells from turning into a resistant cell type, we can test that change using a genetic modification in a mouse, and eventually by targeting that gene in humans. 
 
-## Network structure and dynamics
-
-## Using data to build a gene regulatory network for Small Cell Lung Cancer
-
-## How good is our model?
-
-## So... can we cure Small Cell Lung Cancer yet?
-
-
 
 [1]: https://archive.org/details/in.ernet.dli.2015.547782/page/n1/mode/2up
 
-*adapted from my talk on Network Control of Phenotypic plasticity in Cancer."
+*adapted from my talk on Network Control of Phenotypic plasticity in Cancer.*
