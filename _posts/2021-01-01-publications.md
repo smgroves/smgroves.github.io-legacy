@@ -2,6 +2,7 @@
 layout: page-fullwidth
 subheadline:  "Contributions to Science"
 title: "Publications"
+teaser: "Peer-reviewed publications and pre-prints."
 permalink: "/publications/"
 tags:
     - contributions
