@@ -8,18 +8,18 @@ layout: frontpage
 header:
   image_fullwidth: header_home.jpg
 widget1:
-  title: "Portfolio"
-  url: 'http://smgroves.github.io/blog/'
+  title: "Contributions to Science"
+  url: 'http://smgroves.github.io/contributions/'
   image: widget-1-302x182.jpg
-  text: 'See my publications, pre-prints, and other writings.'
+  text: 'See my publications, presentations, and computational tools.'
 widget2:
-  title: "Projects & Code"
-  url: 'http://smgroves.github.io/projects/'
+  title: "Broader Impact"
+  url: 'http://smgroves.github.io/impact/'
   image: widget-2.jpg
-  text: ''
+  text: 'See my mentorship and community service, or browse my course lectures and blog posts.'
 widget3:
   title: "Current Research"
-  url: 'https://github.com/Phlow/feeling-responsive'
+  url: 'http://smgroves.github.io/about/current/'
   image: widget-github-303x182.jpg
   text: 'I am currently a PhD candidate at Vanderbilt University in the lab of Vito Quaranta.'
 #

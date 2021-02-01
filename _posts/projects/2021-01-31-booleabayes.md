@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline:  "Research"
+subheadline:  "Contributions to Science"
 title:  "BooleaBayes"
 teaser: "Code written to analyze transcription factor networks for Small Cell Lung Cancer phenotypes."
 categories:
@@ -9,6 +9,7 @@ tags:
     - projects
     - code
     - networks
+    - contributions
 header:
     image_fullwidth: "header_11.jpg"
 permalink: "/projects/booleabayes/"
