@@ -82,4 +82,3 @@ See the next post to learn how we determine what the gene regulatory network loo
 
 [1]: https://archive.org/details/in.ernet.dli.2015.547782/page/n1/mode/2up
 
-*adapted from my talk on "Network Control of Phenotypic Plasticity in Cancer"*

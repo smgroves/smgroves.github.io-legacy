@@ -3,7 +3,7 @@ layout: page-fullwidth
 breadcrumb: true
 
 subheadline:  "Contributions to Science"
-title:  "BooleaBayes"
+title:  "BooleaBayes Overview"
 teaser: "This analysis was written to analyze transcription factor networks for Small Cell Lung Cancer phenotypes. I've written a primer on gene regulatory network dynamics and how our computational tool is able to define them and make predictions about the future using gene expression data-- RNA sequencing data that tells you the identity of a population of cells."
 categories:
     - projects
@@ -34,4 +34,6 @@ Where we are with targeting cell plasticity as a form of therapy.
 ## Links to all posts
 Please come back soon; these posts are still being updated.
 {% include list-posts tag='booleabayes' %}
+
+*Posts are adapted from my talk on <a href="https://smgroves.github.io/about/talks/">"Network Control of Phenotypic Plasticity in Cancer."*</a> 
 
