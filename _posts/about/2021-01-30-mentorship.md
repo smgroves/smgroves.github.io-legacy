@@ -17,11 +17,13 @@ permalink: "/about/mentorship/"
 
 ## Teaching and Mentoring Experience
 
-Spring 2021 | Mentor for Lab Rotation
-Student, Vanderbilt University \
+#### Mentor for Lab Rotation Student, 
+Spring 2021 | \
+Vanderbilt University \
 Assisted rotation student with 8-week project on the role of increased MYC after relapse from chemotherapeutic treatment of Small Cell Lung Cancer and subsequent treatment resistance.
 
-Fall 2020 | Mentor for Lab Rotation Student, 
+#### Mentor for Lab Rotation Student, 
+Fall 2020 | \
 Vanderbilt University \
 Assisted rotation student with 8-week project with single cell RNA-sequencing analysis on the role of the Notch pathway in Small Cell Lung Cancer phenotypic heterogeneity.
 
