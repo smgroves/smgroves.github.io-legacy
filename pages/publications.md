@@ -17,11 +17,11 @@ header:
         <p>Gay, C. M., Stewart, A., Park, E.M., Diao, L., <b>Groves, S.M.</b> et al.
 (2021) Patterns of transcription factor programs and immune pathway
 activation define four major subtypes of SCLC with distinct therapeutic
-vulnerabilities. <i>Cancer Cell</i> <a href="https://www.sciencedirect.com/science/article/abs/pii/S1535610820306620?via%3Dihub">doi:10.1016/j.ccell.2020.12.014.</a></p>
+vulnerabilities. <i>Cancer Cell</i>, <a href="https://www.sciencedirect.com/science/article/abs/pii/S1535610820306620?via%3Dihub">doi:10.1016/j.ccell.2020.12.014.</a></p>
     </div><!-- /.medium-4.columns -->
     <div class="medium-4 columns">
         <img src="{{ site.urlimg }}ploscb.jpg" alt="">
-        <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b>\<sup>*</sup>, et al. (2019). Systems-level network
+        <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b><sup>*</sup>, et al. (2019). Systems-level network
 modeling of Small Cell Lung Cancer subtypes identifies master regulators
 and destabilizers. <i>PLOS Comp Bio</i> 15,
  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007343">doi:10.1371/journal.pcbi.1007343.</a></p>
@@ -37,17 +37,30 @@ electron scattering data with a small proton radius. <i>Physics Review C</i>,
 
 
 ## Pre-Prints 
-**Groves, S. M.** et al. (2021) Cancer Hallmarks Define a
+
+<!--more-->
+
+<div class="row t30">
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}archetypes.jpg" alt="">
+        <p><b>Groves, S. M.</b> et al. (2021) Cancer Hallmarks Define a
 Continuum of Plastic Cell States between Small Cell Lung Cancer
-Archetypes. *BioRxiv* doi:10.1101/2021.01.22.427865.\
-
-Olsen, R. R., Kastner, D.W., Ireland, A.S., **Groves, S.M.** et al.
+Archetypes. <i>BioRxiv</i> <a href="https://www.biorxiv.org/content/10.1101/2021.01.22.427865v1">doi:10.1101/2021.01.22.427865.</a></p>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}rpma.jpg" alt="">
+        <p>Olsen, R. R., Kastner, D.W., Ireland, A.S., <b>Groves, S.M.</b> et al.
 (2020) ASCL1 represses a latent osteogenic program in small cell lung
-cancer in multiple cells of origin. *Biorxiv*
-doi:10.1101/2020.11.11.362632.\
-
-Wooten, D.\*, **Groves, S.M.**\*, et al. (2018). Systems-level network
+cancer in multiple cells of origin. <i>Biorxiv</i>
+ <a href="https://www.biorxiv.org/content/10.1101/2020.11.11.362632v1">doi:10.1101/2020.11.11.362632.</a></p>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}ploscb-arxiv.jpg" alt="">
+        <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b><sup>*</sup>, et al. (2018). Systems-level network
 modeling of Small Cell Lung Cancer subtypes identifies master regulators
-and destabilizers. *BioRxiv* 506402; https://doi.org/10.1101/506402.
+and destabilizers. <i>BioRxiv</i>, 506402 <a href="https://www.biorxiv.org/content/10.1101/506402v3">doi:10.1101/506402.</a></p>
+    </div><!-- /.medium-4.columns -->
+</div><!-- /.row -->
+
 
 \* co-authors
