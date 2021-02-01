@@ -2,6 +2,7 @@
 layout: page-fullwidth
 show_meta: false
 title: "Broader Impact"
+teaser: "See my mentorship and community service, or browse my course lectures and blog posts."
 header:
    image_fullwidth: "header_10.jpg"
 permalink: "/impact/"
