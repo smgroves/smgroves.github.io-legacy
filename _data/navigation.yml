@@ -28,11 +28,11 @@
   - title: "MazeBox"
     url: "/projects/mazebox/"
 
-- title: Blog
+- title: All Posts
   url: "/blog/"
   side: left
   dropdown:
-  - title: "Blog Archive"
+  - title: "Post Archive"
     url: "/blog/archive/"
 
 - title: "Search"
