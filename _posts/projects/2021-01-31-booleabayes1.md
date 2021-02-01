@@ -4,7 +4,7 @@ breadcrumb: true
 
 subheadline:  "Contributions to Science"
 title:  "BooleaBayes Part 1: The Why"
-teaser: "This analysis was written to analyze transcription factor networks for Small Cell Lung Cancer phenotypes. I've written a primer on gene regulatory network dynamics and how our computational tool is able to define them and make predictions about the future using gene expression data-- RNA sequencing data that tells you the identity of a population of cells."
+teaser: "In this first post, I explain why we care about transcription factor networks and how they can help us treat Small Cell Lung Cancer."
 categories:
     - projects
 tags:
