@@ -1,5 +1,7 @@
 ---
 layout: page-fullwidth
+breadcrumb: true
+
 show_meta: false
 title: "Broader Impact"
 teaser: "See my mentorship and community service, or browse my course lectures and blog posts."

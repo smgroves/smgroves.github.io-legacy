@@ -1,5 +1,7 @@
 ---
 permalink: /search/
+breadcrumb: true
+
 layout: page
 title: "Search"
 sitemap: false

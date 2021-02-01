@@ -1,5 +1,7 @@
 ---
 layout: page
+breadcrumb: true
+
 title: "Contact Me"
 teaser: "Have a question? Get in contact with me through the form below."
 permalink: "/contact/"

@@ -1,6 +1,8 @@
 ---
 layout: page
 show_meta: false
+breadcrumb: true
+
 subheadline:  "Research"
 title: "Computational Tools and Projects"
 header:

@@ -1,5 +1,7 @@
 ---
 layout: page-fullwidth
+breadcrumb: true
+
 show_meta: false
 title: "Contributions to Science"
 teaser: "A list of my publications, presentations, and computational tools."

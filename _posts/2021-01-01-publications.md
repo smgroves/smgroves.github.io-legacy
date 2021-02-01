@@ -1,5 +1,7 @@
 ---
 layout: page-fullwidth
+breadcrumb: true
+
 subheadline:  "Contributions to Science"
 title: "Publications"
 teaser: "Peer-reviewed publications and pre-prints."

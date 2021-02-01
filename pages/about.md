@@ -1,5 +1,6 @@
 ---
 layout: page
+breadcrumb: true
 title: "About Me"
 subheadline: "Who am I?"
 permalink: "/about/"
