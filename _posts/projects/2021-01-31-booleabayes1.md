@@ -68,7 +68,11 @@ Genetic instability is accompanied by non-genetic instability, or “plasticity,
   <figcaption> </figcaption>
 </figure>
 
-So now we come to the problems we are trying to solve: *how do cancer cells change their identities, and what can we do to stop them from changing into resistant cell types?* Our answer: control the underlying regulatory network to control cell identity and keep the cells from becoming resistant in the first place. This is what the BooleaBayes computational tool does: it figures out the specifics of the GRN (how the transcription factors affect the expression of genes and which ones), and uses it to predict what would happen to each cell type if we were to make a sudden change in the network. If we find a change we can make that keeps the cells from turning into a resistant cell type, we can test that change using a genetic modification in a mouse, and eventually by targeting that gene in humans. 
+So now we come to the problems we are trying to solve: 
+
+> How do cancer cells change their identities, and what can we do to stop them from changing into resistant cell types?
+
+Our answer: control the underlying regulatory network to control cell identity and keep the cells from becoming resistant in the first place. This is what the BooleaBayes computational tool does: it figures out the specifics of the GRN (how the transcription factors affect the expression of genes and which ones), and uses it to predict what would happen to each cell type if we were to make a sudden change in the network. If we find a change we can make that keeps the cells from turning into a resistant cell type, we can test that change using a genetic modification in a mouse, and eventually by targeting that gene in humans. 
 
 
 [1]: https://archive.org/details/in.ernet.dli.2015.547782/page/n1/mode/2up
