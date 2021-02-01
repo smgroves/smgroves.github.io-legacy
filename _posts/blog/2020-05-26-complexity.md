@@ -53,4 +53,4 @@ The important thing here is that we can’t figure out what is going to happen, 
 
 *if you know, you know.
 
-https://quarantalab.com/what-is-complexity/
+<a href='https://quarantalab.com/what-is-complexity/'>See original published article here</a>.
