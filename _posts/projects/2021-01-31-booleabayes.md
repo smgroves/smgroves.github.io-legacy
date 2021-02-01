@@ -33,15 +33,33 @@ Al of these cells likely have the same genome, or specific patterns of DNA, if t
   <figcaption>Like an old-school printing press, DNA is a template that can be used to make many copies of messenger RNA, or mRNA. These RNA copies then get translated into proteins, which are the cellular machines that allow cells to function in different ways. The number of copies of RNA made from the DNA depends on many things, one of which is other proteins whose function is to decide how much DNA is transcribed. These proteins are called transcription factors.</figcaption>
 </figure>
 
-Often the control of gene expression, or transcriptional regulation, is ascribed to networks of transcription factors that affect the level of gene expression (amount of that gene's RNA) in each cell. 
+Often the control of gene expression, or transcriptional regulation, is ascribed to networks of transcription factors that affect the level of gene expression (amount of that gene's RNA) in each cell. For example, the image below is showing three different TFs (two activators and one repressor), and when they TFs bind to their targeted regions of DNA, they affect how much of the target gene is transcribed and therefore how much of that protein is made. 
 
-For example, the image below is showing three different TFs (two activators and one repressor), and when they TFs bind to their targeted regions of DNA, they affect how much of the target gene is transcribed and therefore how much of that protein is made. 
+<figure>
+ <img src="{{ site.urlimg }}tfs.jpg" >
+  <figcaption></figcaption>
+</figure>
 
-These TFs do not work independently, but instead can be placed in a network that we call a gene regulatory network (GRN). Sets of interacting transcription factors (TFs) can “drive” cells towards a specific “identity” through concerted activities. 
-
-These GRNs can exist in multiple states and their dynamics can explain the coexistence of multiple stable cell types even within an isogenic (same genome) population. These dynamics also give cells the plasticity they need to undergo epigenetic changes necessary for response to perturbations and external signals.  For example, in response to an external signal, the dynamics of the network shown here may cause the green gene expression to increase and the blue to decrease until the cell’s expression profile reaches a stable point. These dynamics of gene expression are how a cell might change its phenotype– for example, from a lung basal cell to a club cell.
+These TFs do not work independently, but instead can be placed in a network that we call a gene regulatory network (GRN). Sets of interacting transcription factors (TFs) can “drive” cells towards a specific “identity” through concerted activities. GRNs can exist in multiple states and their dynamics can explain the coexistence of multiple stable cell types even within an isogenic (same genome) population. These dynamics also give cells the plasticity they need to undergo epigenetic changes necessary for response to perturbations and external signals. For example, in response to an external signal, the dynamics of the network shown here may cause the green gene expression to increase and the blue to decrease until the cell’s expression profile reaches a stable point. These dynamics of gene expression are how a cell might change its phenotype– for example, from a lung basal cell to a club cell.
 
 <figure>
  <img src="{{ site.urlimg }}grn.jpg" >
-  <figcaption>Transcription factors form a network, and the network changes over time, causing expression of genes to change over time. This is how a cell may change its identity from a basal cell, expressing the *blue* gene, to a club cell, expressing *green*.</figcaption>
+  <figcaption>Transcription factors form a network, and the network changes over time, causing expression of genes to change over time. This is how a cell may change its identity from a basal cell, expressing the <i>blue</i> gene, to a club cell, expressing <i>green</i>.</figcaption>
 </figure>
+
+Because this single network under different conditions can produce varying phenotypes, we say that the network is capable of explaining the multi-stability of cell phenotypes that share a single genome. 
+
+A very helpful (albeit limited) visualization tool for thinking about multiple stable cell types is a phenotypic landscape. If you have not heard of a phenotypic landscape before, it is an idea that was first proposed by a guy named [Waddington][1] to describe how cells differentiate from one cell type to another without necessarily changing their genome. You may be very unlikely to see a heart cell turn into a lung cell, but these types of changes in cell identity happen all the time in differentiation: a stem cell turns into more specialized cell types with specific functions. Waddington proposed that differentiation was like a ball rolling down a hill and falling into basins at the bottom of the hill that represent different steady states, or cell types. Here, we’re showing just one dimension of the landscape across the x axis, but you can think of each point on the x axis as a different cell type, and the y axis is the stability of that cell type. Similar to a ball rolling down a hill, if we place a cell someone on this landscape that is not in a basin, it will roll down into a nearby basin until it comes to a stop. 
+
+<figure>
+ <img src="{{ site.urlimg }}landscape.jpg" >
+  <figcaption>The network will eventually "calm down" until it reaches an equilibrium, like a thermostat (a very simple network) that eventually shuts off the AC when it reaches the right temperature. These steady states are the stable "attractors" of the network, and can be represented by valleys in a landscape. States higher in the landscape will continue to change until they eventually reach an attractor. </figcaption>
+</figure>
+
+Where these cells stop are called attractor states in the network, and these correspond to stable cell phenotypes we would see empirically, such as the basal and club cells we saw before. Importantly, attractor states are self-stabilizing, which means that if you perturb a cell by moving it a small distance from the attractor, it will roll back to its original starting place. We therefore think of the stability of each attractor as the depth and relative size of the basin of attraction surrounding it.  Often this stability comes from feedback loops in the underlying network of interactions. 
+
+
+
+[1]: https://archive.org/details/in.ernet.dli.2015.547782/page/n1/mode/2up
+
+*adapted from my talk on Network Control of Phenotypic plasticity in Cancer."
