@@ -3,6 +3,8 @@ layout: page-fullwidth
 subheadline:  "Contributions to Science"
 title: "Publications"
 permalink: "/publications/"
+tags:
+    - contributions
 header:
     image_fullwidth: "header_4.jpg"
 ---
