@@ -31,7 +31,7 @@ of William and Mary**, Williamsburg, VA
 
 #### Phenotypic Plasticity in Small Cell Lung Cancer
 Current | Graduate Researcher at Vanderbilt University, Nashville, TN \
-*Thesis Laboratory* \
+*Thesis Laboratory* 
 
 #### Laboratory Rotations
 2016-2017 | Graduate Researcher at Vanderbilt University, Nashville, TN\
