@@ -88,8 +88,15 @@ What if we start from state 8, `[1,1,1]`? If you follow the same logic, you'll f
   <figcaption>The left figure shows the state transition graph, with each state numbered by the truth table above. The left shows what the corresponding "landscape" might look like, where balls roll down through states to each attractors highlighted in orange. The right side of the landscape is really interesting because we have what's called a "cyclic attractor," where we get stuck in a cycle between 2 or more states.</figcaption>
 </figure>
 
+Interestingly, if we start in state 4, 6, or 3, we end up cycling between states 6 and 3 for eternity. This is a *cyclic attractor.*
 
+Finally, back to our puzzle! Do you think you have the tools to solve it? Since there are so many people, there are a lot of possible initial conditions, and the state transition graph will be very large. However, we can still consider a few starting states: who goes to the party when no one wants to go initially, and who goes when everyone initially wants to go?
 
+Use the two tables below to fill in each additional row until you reach a stable attractor. That's your solution! Make sure at each step, you reference the friends' decisions in *the previous row, not the current row.* Good luck!
+
+  <img src="{{ site.urlimg }}puzzle_table.jpg"  class="center">
+
+Next post, I'll talk about how we actually figure out the rules in the first place when we are talking about transcription factor networks. 
 
 <sup>*</sup> An interesting (yet somewhat debated) fact about biological networks is that they tend to be <a href="https://www.futurelearn.com/info/courses/complexity-and-uncertainty/0/steps/1855">"scale-free."</a> Scale-invariance is a property meaning that the underlying structure of the network doesn't change as the network grows. In scale-free networks, you will find that the distribution of edges connected to each node follows a power-law distribution. In simpler terms, this means that are there many nodes with only a few connections, and few nodes with many connections. This is true of airports (Atlanta is one of those few highly-connected nodes) and social networks (there are usually a few well-connected people), but also critical in biological networks where a few nodes have much more control than average. A great visualization of this can be found <a href="https://en.wikipedia.org/wiki/Scale_invariance"> here. </a> Centrality notions like scale-invariance can also have some interesting side effects, like the fact that <a href="https://en.wikipedia.org/wiki/Friendship_paradox#:~:text=The%20friendship%20paradox%20is%20the,in%20one's%20own%20friend%20group."> on average, most people have fewer friends than their friends have.</a>
 
