@@ -68,7 +68,23 @@ To see how, let's start a little simpler and just look at Bob. Bob's friends are
 
 Every one of our rules can be rewritten as a Boolean function, although some look a bit complicated. Try writing out the truth tables for C = A OR B, C = A AND NOT B, and C = (NOT A) OR C. Keep in mind that "or" in Boolean logic means "at least one of the other, including both."
 
-We're getting close to being able to solve our puzzle!
+We're getting close to being able to solve our puzzle! We just need to talk about one more thing-- how to *update* someone's decision based on what their friends are doing. This is where initial conditions will come in. To see how this works, let's once again look at a simpler problem. We're going to consider the small network below, with the rules shown below it written in math!
+
+To clarify this network picture a little bit, let's make a *wiring diagram.* We're going to write the three nodes *before updating* and the three nodes *after updating. It looks like this:
+
+  <img src="{{ site.urlimg }}wiring.jpg" >
+
+Using the rules for each node, we can also make a truth table for the entire network. In this case, we have condensed three truth tables into one, where the initial state of the three nodes determines the subsequent state of all three nodes. For example, let's look at "State 1" in the table. A only turns on if B is on (the rule for A = B), so A will remain off since B is off. B turns on if A and C are both on, so it stays off as well. C turns on when A is off, so it indeed will turn on in this *time step.* We can follow the same logic for the other initial states, and fill out this entire table. 
+
+  <img src="{{ site.urlimg }}truthtable.png" >
+
+
+Lastly, we are going to make a *state transition graph.* Even though this looks like a network, don't confuse it with the Boolean network above. Here, each node in the network is a different state, meaning each single node represents one state of the *entire* Boolean network. In this state transition graph, we're going to draw out how to update the state based on the defined rules. For example, if we are ever in state [0,0,0] in this smaller network, we know we will move to [0,0,1]. When we then look at that state in the second row of the truth table, we see something interesting: we stay in state [0,0,1]! Aha! We've reached an attractor, giving us the solution for this network if we start from [0,0,0]. 
+
+What if we start from state 8, [1,1,1]? If you follow the same logic, you'll find that we end up in the same attractor as before, [0,0,1]. The state transition graph makes this clear:
+
+  <img src="{{ site.urlimg }}stg.jpg" >
+
 
 
 
