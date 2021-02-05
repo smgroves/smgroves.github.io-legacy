@@ -65,7 +65,7 @@ Genetic instability is accompanied by non-genetic instability, or “plasticity,
 
 <figure>
  <img src="{{ site.urlimg }}hill.jpg" >
-  <figcaption> </figcaption>
+  <figcaption> Sui Huang, 2013. <i> Cancer Metastasis Rev. </i></figcaption>
 </figure>
 
 So now we come to the problems we are trying to solve: 
