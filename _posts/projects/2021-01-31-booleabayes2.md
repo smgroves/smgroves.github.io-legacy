@@ -41,14 +41,40 @@ To think about this, let's look at a little puzzle. In terms of social networks,
   <figcaption>Who goes to the party? Edges represent friendships, and each node is one person (First letter of name labels the node). Do different "initial conditions" change who ends up going?</figcaption>
 </figure>
 
+This puzzle is trickier than it may look. There are actually several answers, depending on the "initial conditions." For example, the solution if everyone starts with an initial desire not to go to the party (all OFF) will be different than the solution if everyone starts with an initial dsire to go (all ON). Why is this?
 
+Think about the landscape again. Different "initial conditions are like placing a ball in different locations on the landscape, and they will naturall roll into different basins (attractors). 
 
+<figure>
+ <img src="{{ site.urlimg }}landscape.jpg" >
+  <figcaption>The ball on the left will roll down into a "green" state, while the ball on the right will roll down into a "red" state.</figcaption>
+</figure>
 
+To truly solve the puzzle, we need to know what happens for *every* initial condition. Luckily, the *rules* that each person is following (the combination of friends going or not going that makes their decision) tells us exactly how to proceed.
+
+To see how, let's start a little simpler and just look at Bob. Bob's friends are Anna, Carrie, and Erin (A, C, and E). Because our network is *undirected,* any connection to Bob can be considered an influence on him, which we call a *parent node.* Likewise, Bob can be considered a *parent* of Anna, Carrie, and Erin, affecting their decisions as well.
+
+ <img src="{{ site.urlimg }}bob.jpeg" > 
+ 
+ Importantly, in a Boolean network, we **only** need to know what the parents are doing to know what the *child* node of interest is doing. So what will Bob decide in each case?
+
+  <img src="{{ site.urlimg }}bob_table.jpg" >
+
+  To figure it out, we can make what's called a truth table, shown above. For each combination of "going" and "not going" that Anna, Carrie, and Erin can have (8 combinations, since they each have 2 choices and 2 x 2 x 2 = 8), we can use Bob's "rule" to figure out what he will decide. For example, if none of his friends are going (first row), Bob will not go. If all of his friends are going (last row), Bob will go to the party.
+
+  We can technically make this kind of table for each person in our network. Then all we have to do is figure out what the *parents* of each person are doing, and we can figure out if anyone changes their mind from whatever they initially desired. Furthermore, we can rewrite these rules (if we felt so inclined) as *Boolean functions,* which only make the rule sound more technical (and easier to understand mathematically, such as for a computer) by using **and**, **or**, and **not**.<sup>\**</sup> For example, Kate's rule is that she will go if both her friends, John and Anna, are going. We could also say that Kate's decision is dependent on John **and** Anna, or KATE = JOHN AND ANNA. The truth table for Kate (or any **and** function) would look like this:
+
+  <img src="{{ site.urlimg }}kate.jpg" >
+
+Every one of our rules can be rewritten as a Boolean function, although some look a bit complicated. Try writing out the truth tables for C = A OR B, C = A AND NOT B, and C = (NOT A) OR C. Keep in mind that "or" in Boolean logic means "at least one of the other, including both."
+
+We're getting close to being able to solve our puzzle!
 
 
 
 
 <sup>*</sup> An interesting (yet somewhat debated) fact about biological networks is that they tend to be <a href="https://www.futurelearn.com/info/courses/complexity-and-uncertainty/0/steps/1855">"scale-free."</a> Scale-invariance is a property meaning that the underlying structure of the network doesn't change as the network grows. In scale-free networks, you will find that the distribution of edges connected to each node follows a power-law distribution. In simpler terms, this means that are there many nodes with only a few connections, and few nodes with many connections. This is true of airports (Atlanta is one of those few highly-connected nodes) and social networks (there are usually a few well-connected people), but also critical in biological networks where a few nodes have much more control than average. A great visualization of this can be found <a href="https://en.wikipedia.org/wiki/Scale_invariance"> here. </a> Centrality notions like scale-invariance can also have some interesting side effects, like the fact that <a href="https://en.wikipedia.org/wiki/Friendship_paradox#:~:text=The%20friendship%20paradox%20is%20the,in%20one's%20own%20friend%20group."> on average, most people have fewer friends than their friends have.</a>
 
+<sup>**</sup> If you're super savvy with this Boolean language stuff, you might also include XOR, which means "exclusive or." In Boolean language, "or" means something a little different than everyday language; instead of meaning "one or the other, but not both," it means "at least one or the other, including both." XOR is what we mean when we say "or" in the English langauge-- "one of the other, but not both." 
 
 {% include list-posts tag='booleabayes' %}
