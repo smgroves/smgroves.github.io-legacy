@@ -34,7 +34,7 @@ You might be familiar with network structure from other disciplines, such as soc
 
 When I teach graduate students about networks in a Cancer Systems Biology course I TA, we usually start with these more familiar types of networks before getting into the specifics of network dynamics. I find it helpful to keep these analogies in mind, and I'll continue to use social networks as an example. Specifically, we will be focusing on a type of network called a Boolean network, where each node in the network can only have one of two states: ON or OFF. 
 
-To think about this, let's look at a little puzzle. In terms of social networks, we can think of each node as a person, the ON state as "going to a party," and the OFF state as "not going to a party." We'll assume that peer pressure is strong, and each person in this social network decides to go to the party entirely based on the decisions of their friends or more popular kids at their school. They each start with a desire to go to the party or not (*initial condition*), but can very easily (*deterministically*) be swayed by their friends. So, who ends up going to the party, based on the "rules" and interactions below? 
+To think about this, let's look at a little puzzle. In terms of social networks, we can think of each node as a person, the ON state as "going to a party," and the OFF state as "not going to a party." We'll assume that peer pressure is strong, and each person in this social network decides to go to the party entirely based on the decisions of their friends or more popular kids at their school. They each start with a desire to go to the party or not (*initial condition*), but can very easily (*deterministically*) be swayed by their friends. So, who ends up going to the party, based on the "rules" and interactions below? I **strongly** suggest you try to solve, or at least think through how you would try to solve, the puzzle. 
 
 <figure>
  <img src="{{ site.urlimg }}network.jpg" class="center" >
@@ -70,21 +70,23 @@ Every one of our rules can be rewritten as a Boolean function, although some loo
 
 We're getting close to being able to solve our puzzle! We just need to talk about one more thing-- how to *update* someone's decision based on what their friends are doing. This is where initial conditions will come in. To see how this works, let's once again look at a simpler problem. We're going to consider the small network below, with the rules shown below it written in math!
 
-To clarify this network picture a little bit, let's make a *wiring diagram.* We're going to write the three nodes *before updating* and the three nodes *after updating. It looks like this:
+To clarify this network picture a little bit, let's make a *wiring diagram.* We're going to write the three nodes *before updating* and the three nodes *after updating.* This means that each person's decision is based on what their friends have *previously decided.* For example, Bob's friends may have already decided not to go, so he won't go. If Bob's friends change their mind, the top of the wiring diagram would change, and the bottom would reflect the change in Bob's decision *in response* to his friends' decisions. A little tricky, huh? It looks like this:
 
   <img src="{{ site.urlimg }}wiring.png"  class="center">
 
-Using the rules for each node, we can also make a truth table for the entire network. In this case, we have condensed three truth tables into one, where the initial state of the three nodes determines the subsequent state of all three nodes. For example, let's look at "State 1" in the table. A only turns on if B is on (the rule for A = B), so A will remain off since B is off. B turns on if A and C are both on, so it stays off as well. C turns on when A is off, so it indeed will turn on in this *time step.* We can follow the same logic for the other initial states, and fill out this entire table. 
+Using the rules for each node, we can also make a truth table for the entire network. In this case, we have condensed three truth tables into one, where the initial state of the three nodes determines the subsequent state of all three nodes. For example, let's look at "State 1" in the table. A only turns on if B is on (the rule for A above is f<sub>A</sub> = B), so A will remain off since B is off. B turns on if A and C are both on, so it stays off as well. C turns on when A is off, so it indeed will turn on at this time. We can follow the same logic for the other initial states, and fill out this entire table. 
 
   <img src="{{ site.urlimg }}truthtable.png" class="center" >
 
 
-Lastly, we are going to make a *state transition graph.* Even though this looks like a network, don't confuse it with the Boolean network above. Here, each node in the network is a different state, meaning each single node represents one state of the *entire* Boolean network. In this state transition graph, we're going to draw out how to update the state based on the defined rules. For example, if we are ever in state [0,0,0] in this smaller network, we know we will move to [0,0,1]. When we then look at that state in the second row of the truth table, we see something interesting: we stay in state [0,0,1]! Aha! We've reached an attractor, giving us the solution for this network if we start from [0,0,0]. 
+Lastly, we are going to make a *state transition graph.* Even though this looks like a network, don't confuse it with the Boolean network above. Here, each node in the network is a different state, meaning each single node represents one state of the *entire* Boolean network. In this state transition graph, we're going to draw out how to update the state based on the defined rules. For example, if we are ever in state 1 aka `[0,0,0]` in this smaller network, we know we will move to state 2 aka `[0,0,1]`. When we then look at that state in the second row of the truth table, we see something interesting: we stay in state `[0,0,1]`! Aha! We've reached an attractor, giving us the solution for this network if we start from `[0,0,0]`. 
 
-What if we start from state 8, [1,1,1]? If you follow the same logic, you'll find that we end up in the same attractor as before, [0,0,1]. The state transition graph makes this clear:
+What if we start from state 8, `[1,1,1]`? If you follow the same logic, you'll find that we eventually end up in the same attractor as before, state 2 aka `[0,0,1]`. The state transition graph makes this clear:
 
+<figure>
   <img src="{{ site.urlimg }}stg.jpg"  class="center">
-
+  <figcaption>The left figure shows the state transition graph, with each state numbered by the truth table above. The left shows what the corresponding "landscape" might look like, where balls roll down through states to each attractors highlighted in orange. The right side of the landscape is really interesting because we have what's called a "cyclic attractor," where we get stuck in a cycle between 2 or more states.</figcaption>
+</figure>
 
 
 
