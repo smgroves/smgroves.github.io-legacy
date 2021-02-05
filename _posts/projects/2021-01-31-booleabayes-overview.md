@@ -17,11 +17,11 @@ header:
 permalink: "/projects/booleabayes/"
 ---
 ## Part 1: The Why
-In this first post, I explain why we care about transcription factor networks and how they can help us treat Small Cell Lung Cancer.
+In this first post, I explain why we care about transcription factor networks and how they can help us treat Small Cell Lung Cancer. \
 <a href='https://smgroves.github.io/projects/booleabayes/1/'>Read More</a>.
 
 ## Part 2: Network structure and dynamics
-This post takes a look what information we will need to gather in order to understand how cell identity is controlled.
+This post takes a look what information we will need to gather in order to understand how cell identity is controlled. \
 <a href='https://smgroves.github.io/projects/booleabayes/2/'>Read More</a>.
 
 ## Part 3: Using data to build a gene regulatory network for Small Cell Lung Cancer
