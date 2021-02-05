@@ -18,9 +18,11 @@ permalink: "/projects/booleabayes/"
 ---
 ## Part 1: The Why
 In this first post, I explain why we care about transcription factor networks and how they can help us treat Small Cell Lung Cancer.
+<a href='https://smgroves.github.io/projects/booleabayes/1/'>Read More</a>.
 
 ## Part 2: Network structure and dynamics
 This post takes a look what information we will need to gather in order to understand how cell identity is controlled.
+<a href='https://smgroves.github.io/projects/booleabayes/2/'>Read More</a>.
 
 ## Part 3: Using data to build a gene regulatory network for Small Cell Lung Cancer
 We begin to look at how BooleaBayes, the computational tool developed in the Quaranta lab by David Wooten, PhD and me, can be applied to Small Cell Lung Cancer Data. 
@@ -31,7 +33,7 @@ How can we be sure that our model's predictions will be accurate and tell us som
 ## Part 5: So... can we cure Small Cell Lung Cancer yet?
 Where we are with targeting cell plasticity as a form of therapy.
 
-*Posts are adapted from my talk on <a href="https://smgroves.github.io/about/talks/">"Network Control of Phenotypic Plasticity in Cancer."*</a> 
+*Posts are adapted from my talk on 
 
 ## Links to all posts
 Please come back soon; these posts are still being updated.
