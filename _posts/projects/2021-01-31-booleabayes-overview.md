@@ -26,6 +26,7 @@ This post takes a look what information we will need to gather in order to under
 
 ## Part 3: Using data to build a gene regulatory network for Small Cell Lung Cancer
 We begin to look at how BooleaBayes, the computational tool developed in the Quaranta lab by David Wooten, PhD and me, can be applied to Small Cell Lung Cancer Data. 
+<a href='https://smgroves.github.io/projects/booleabayes/3/'>Read More</a>.
 
 ## Part 4: How good is our model?
 How can we be sure that our model's predictions will be accurate and tell us something new?

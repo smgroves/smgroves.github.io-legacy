@@ -41,7 +41,7 @@ Just like we talked about in the first post, Small Cell Lung Cancer cells can ea
 
 We already talked about what we need to learn to figure this out: how is the transcription factor network controlling these changes in cell identity?
 
-To answer this question, we developed a tool called BooleaBayes-- an algorithm that can take in data and reverse engineer the rules of the network controlling that data. Just like in the party scenario, we first would like to figure out the structure of the network, which we do using expert knowledge. There's a really cool type of experiment that can figure out what proteins (transcription factors) are binding to what pieces of DNA (genes). It's called ChIP-seq, and essentially the method uses a cool trick to "tie together" any proteins that are bound to DNA (normally these proteins will bind and fall off the DNA pretty quickly). The scientist then "shakes up" the DNA to break it into little pieces, and pulls out the pieces of DNA with the specific transcription factor of interest bound to them. Once these pieces of DNA are sequenced, the scientist can figure out which genes are controlled by that transcription factor. This is akin to determining the edges in the network: which genes affect other genes?
+To answer this question, we developed a tool called BooleaBayes-- an algorithm that can take in data and reverse engineers the rules of the network controlling that data. Just like in the party scenario, we first would like to figure out the structure of the network, which we do using expert knowledge. There's a really cool type of experiment that can figure out what proteins (transcription factors) are binding to what pieces of DNA (genes). It's called ChIP-seq, and essentially the method uses a cool trick to "tie together" any proteins that are bound to DNA (normally in a live cell these proteins will bind and fall off the DNA pretty quickly). The scientist then "shakes up" the DNA to break it into little pieces, and pulls out the pieces of DNA with the specific transcription factor of interest bound to them. Once these pieces of DNA are sequenced, the scientist can figure out which genes are controlled by that transcription factor. This is akin to determining the edges in the network: which proteins (transcription factors) affect other genes?
 
 Lucky for us, many of these experiments' results have been compiled into databases, so we looked at the databases to come up with a network connecting transcription factors we know are important in SCLC. 
 
@@ -52,7 +52,70 @@ So we have a good idea of which proteins are affecting other genes. But <b>how</
 - D = A and B and not C
 ...
 
-To determine which one is the right rule, we need some data.
+To determine which one is the right rule, we need some data. This is the second (main) piece of our BooleaBayes algorithm: we use sequencing data to determine what rules define the interactions between transcription factors. Don't forget the **big picture** here:
+
+> If we know how transcription factors interact with each other (by figuring out the rules), we can understand-- and control-- changes in cell identity, and hopefully change recalcitrant cancers into easy-to-treat ones. 
+
+Similar to our party example above, if we have many "samples," in this case with different levels of transcription factors in each one, we can determine which transcription factors are co-expressed (positive relationship) and which are inversely correlated (negative relationship). Let's look at another example, more specific to our current problem.
+
+We'll consider a simple transcription factor network with only 4 genes, A, B, C, and D:
+
+### sample network with 4 nodes
+
+We also have data that tells us, for RNA sequenced from different samples (which could be different people, tumors, mice, etc), which transcription factors are highly expressed in that sample and which are low. We'll simplify this, as we did above, to two options: ON or OFF, yes or no, 1 or 0. So each sample data point will look something like this:
+
+### sample
+
+
+Remember how, in the last blog post, we considered every possible combination of the "parent nodes," or the ones affecting the thing we care about, by making a table? We can represent this in another, more compact, way:
+
+
+### tree diagram
+
+In this "tree," we've enumerated every possible combination of nodes A, B, and C as leaves at the bottom. For example, if we want to know what happens when A, B, and C are all off, we can look at the first leaf:
+
+
+### tree with first box highlighted
+
+Or when A and B are off, but C is on:
+
+### tree with  box highlighted
+
+Right now, we don't know what goes in the boxes for node D: that's the goal!
+
+What we do have, though, is sample data, which gives us some *possible* combinations of A, B, C, and D. For example, sample 1 can help us figure out what happens in the 5th leaf from the left:
+
+### fill in node
+
+and sample 2 can help us with the 6th leaf:
+
+### fill in node
+
+If we have enough samples, we can fill in all the nodes!
+
+Even though this "rule" isn't in English, like our party rules were, it gives us the same information: for every possible combination of ON and OFF (going vs. not going) of our parent nodes (friends), we know what will happen to some affected gene (person of interest). So if we have a rule like this for each node in the network, we've solved our problem! We know which transcription factors will turn on ("who goes to the party") no matter what configuration of ON and OFF we start with. 
+
+Not so fast! you say. What happens if two samples don't agree?
+
+## disagreement
+
+Our solution is pretty easy. Even though we eventually want to describe everything as either ON or OFF, in these rules, we can give a *probability* of being ON (or OFF). So instead of a 0 or 1, in the case of two "disagreeing" samples, we would have this scenario:
+
+##
+
+This is basically the same as a situation where Carrie will go 50% of the time if Daniel goes-- if Daniel is going, she flips a coin to decide; if he isn't going, she still won't go either.
+
+At the end of the previous post, we used tables to "move through different states" and figure out who was going to the party. Another way to visualize this is like below:
+
+We started at some (random) starting state, and then slowly updated our knowledge of who was going and who was not until our knowledge didn't change anymore. In the picture above, we "move" from one state to another, slowly updating them, until we reach a state where we don't move anymore.
+
+We do a similar thing with these rules for our transcription factor network, now moving through "gene expression space," where transcription factor expression for each gene can be ON (1) or OFF (0).  
+
+The final piece of the BooleaBayes algorithm is to simulate this movement through the gene expression space. You can think of it this way: if a cell happened to find itself in a state that was "not allowed," according to the rules, it will quickly move away from that state towards a more stable one, where it is stable. This is like a ball at the top of the hill (in the first post) rolling down to a valley and coming to rest. When we simulate a system, we use the rules we just found, along with some starting state (that probably is meaningful biologically), and we watch where the cell moves until it becomes stable.
+
+In real life, this is how we think about cells changing their identity: they might get a small "push," or signal, from their environment to change away from their starting state, and the rules of interaction determine exactly how they change identity. 
+
+In a paper by David Wooten, PhD, and me [CITE], we find a network for Small Cell Lung Cancer cells, and use it to figure out what will happen if we start in different states, and where the stable states are. This gives us some ideas for how we might control the cancer cell's identity, by predicting different perturbations we can make (for example, getting rid of a transcription factor entirely or turning it all the way up) that would change a cell's ability to function. If we change cancer cell identity just right, we might be able to make them susceptible to treatments we already have in the clinic. 
 
 
 {% include list-posts tag='booleabayes' %}
