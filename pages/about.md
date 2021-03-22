@@ -23,7 +23,7 @@ Welcome to my site! I am currently a grad student in a cancer systems biology la
 
 I am grateful to have obtained my own funding for my time in graduate school. For my second year, I received funding from a Vanderbilt Training grant from the Bioinformatics department. I then was honored to receive the NSF Graduate Research Fellowship (GRFP), for which I am a 5-year fellow (provides funding for 3 years).
 
-2016-2017 | BIDS: Vanderbilt Training Program in Big Biomedical Data
-Science Trainee
+2016-2017: BIDS (Vanderbilt Training Program in Big Biomedical Data) Science Trainee
 
-2017-2021 | NSF Graduate Research Fellowships Program Fellow
+
+2017-2021:  NSF Graduate Research Fellowships Program Fellow
