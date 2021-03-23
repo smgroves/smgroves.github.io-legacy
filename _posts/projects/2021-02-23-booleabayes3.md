@@ -3,7 +3,7 @@ layout: page-fullwidth
 breadcrumb: true
 
 subheadline:  "Contributions to Science"
-title:  "BooleaBayes Part 3: Using data to build a gene regulatory network for Small Cell Lung Cancer"
+title:  "BooleaBayes Part 3: Using data to build a network for Small Cell Lung Cancer"
 teaser: "We begin to look at how BooleaBayes, the computational tool developed in the Quaranta lab by David Wooten, PhD and me, can be applied to Small Cell Lung Cancer Data."
 categories:
     - projects
@@ -91,7 +91,7 @@ In this "tree," we've enumerated every possible combination of nodes A, B, and C
 Or when A and B are off, but C is on:
 
 <figure>
- <img src="{{ site.urlimg }}2nd_node.jpg" >
+ <img src="{{ site.urlimg }}2nd_node.jpeg" >
 </figure>
 
 Right now, we don't know what goes in the boxes for node D: that's the goal!
