@@ -27,7 +27,7 @@ In terms of the party puzzle, we might have a scenario like this:
 2. Each person always used the same "rule" to decide whether they will go or not-- the rule is considered <i>time invariant</i>.
 3. We want to figure out these rules for each person, even though we <b>only</b> know who went to each party.
 <figure>
- <img src="{{ site.urlimg }}attendees.jpeg" >
+ <img src="{{ site.urlimg }}attendees.jpeg" width="600" class = 'center' >
 </figure>
 
 This is a really hard problem, and could be considered a problem of <i>reverse engineering</i>. In fact, it's hard enough that it would be difficult for me to even come up with a list of "past party attendees" (samples) that would allow you to find a unique set of rules for everyone.
