@@ -68,7 +68,7 @@ We'll consider a simple transcription factor network with only 4 genes, A, B, C,
 
 We also have data that tells us, for RNA sequenced from different samples (which could be different people, tumors, mice, etc), which transcription factors are highly expressed in that sample and which are low. We'll simplify this, as we did above, to two options: ON or OFF, yes or no, 1 or 0. So each sample data point will look something like this:
 <figure>
- <img src="{{ site.urlimg }}samples.jpg" >
+ <img src="{{ site.urlimg }}samples.jpg" width="600" class = 'center' >
 </figure>
 
 
