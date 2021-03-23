@@ -63,25 +63,20 @@ Similar to our party example above, if we have many "samples," in this case with
 
 We'll consider a simple transcription factor network with only 4 genes, A, B, C, and D:
 <figure>
- <img src="{{ site.urlimg }}4_node_network.jpg" width="600" class = 'center'>
+ <img src="{{ site.urlimg }}4_node_network.jpg" width="400" class = 'center'>
 </figure>
-
 We also have data that tells us, for RNA sequenced from different samples (which could be different people, tumors, mice, etc), which transcription factors are highly expressed in that sample and which are low. We'll simplify this, as we did above, to two options: ON or OFF, yes or no, 1 or 0. So each sample data point will look something like this:
 <figure>
  <img src="{{ site.urlimg }}samples.jpg" width="600" class = 'center' >
 </figure>
-
-
 Remember how, in the last blog post, we considered every possible combination of the "parent nodes," or the ones affecting the thing we care about, by making a table? We can represent this in another, more compact, way:
 <figure>
  <img src="{{ site.urlimg }}4_node_tress.jpeg" >
 </figure>
-
 In this "tree," we've enumerated every possible combination of nodes A, B, and C as leaves at the bottom. For example, if we want to know what happens when A, B, and C are all off, we can look at the first leaf:
 <figure>
  <img src="{{ site.urlimg }}1st_node.jpg" >
 </figure>
-
 Or when A and B are off, but C is on:
 <figure>
  <img src="{{ site.urlimg }}2nd_node.jpeg" >
