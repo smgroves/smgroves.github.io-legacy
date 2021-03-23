@@ -26,8 +26,6 @@ In terms of the party puzzle, we might have a scenario like this:
 1. There have been quite a few parties in the past, and attendees were recorded each time ("samples").
 2. Each person always used the same "rule" to decide whether they will go or not-- the rule is considered <i>time invariant</i>.
 3. We want to figure out these rules for each person, even though we <b>only</b> know who went to each party.
-
-
 <figure>
  <img src="{{ site.urlimg }}attendees.jpeg" >
 </figure>
@@ -64,32 +62,27 @@ To determine which one is the right rule, we need some data. This is the second 
 Similar to our party example above, if we have many "samples," in this case with different levels of transcription factors in each one, we can determine which transcription factors are co-expressed (positive relationship) and which are inversely correlated (negative relationship). Let's look at another example, more specific to our current problem.
 
 We'll consider a simple transcription factor network with only 4 genes, A, B, C, and D:
-
 <figure>
  <img src="{{ site.urlimg }}4_node_network.jpg" >
 </figure>
 
 We also have data that tells us, for RNA sequenced from different samples (which could be different people, tumors, mice, etc), which transcription factors are highly expressed in that sample and which are low. We'll simplify this, as we did above, to two options: ON or OFF, yes or no, 1 or 0. So each sample data point will look something like this:
-
 <figure>
  <img src="{{ site.urlimg }}samples.jpg" >
 </figure>
 
 
 Remember how, in the last blog post, we considered every possible combination of the "parent nodes," or the ones affecting the thing we care about, by making a table? We can represent this in another, more compact, way:
-
 <figure>
  <img src="{{ site.urlimg }}4_node_tress.jpeg" >
 </figure>
 
 In this "tree," we've enumerated every possible combination of nodes A, B, and C as leaves at the bottom. For example, if we want to know what happens when A, B, and C are all off, we can look at the first leaf:
-
 <figure>
  <img src="{{ site.urlimg }}1st_node.jpg" >
 </figure>
 
 Or when A and B are off, but C is on:
-
 <figure>
  <img src="{{ site.urlimg }}2nd_node.jpeg" >
 </figure>
@@ -97,13 +90,11 @@ Or when A and B are off, but C is on:
 Right now, we don't know what goes in the boxes for node D: that's the goal!
 
 What we do have, though, is sample data, which gives us some *possible* combinations of A, B, C, and D. For example, sample 1 can help us figure out what happens in the 5th leaf from the left:
-
 <figure>
  <img src="{{ site.urlimg }}sample1.jpg" >
 </figure>
 
 and sample 2 can help us with the 6th leaf:
-
 <figure>
  <img src="{{ site.urlimg }}sample2.jpg" >
 </figure>
@@ -133,7 +124,7 @@ This is basically the same as a situation where Carrie will go 50% of the time i
 At the end of the previous post, we used tables to "move through different states" and figure out who was going to the party. Another way to visualize this is like below:
 
 <figure>
- <img src="{{ site.urlimg }}migration_party.jpg" >
+ <img src="{{ site.urlimg }}migration_party.jpg" width="200" >
 </figure>
 
 
@@ -148,7 +139,7 @@ We do a similar thing with these rules for our transcription factor network, now
 The final piece of the BooleaBayes algorithm is to simulate this movement through the gene expression space. You can think of it this way: if a cell happened to find itself in a state that was "not allowed," according to the rules, it will quickly move away from that state towards a more stable one, where it is stable. This is like a ball at the top of the hill (in the first post) rolling down to a valley and coming to rest. When we simulate a system, we use the rules we just found, along with some starting state (that probably is meaningful biologically), and we watch where the cell moves until it becomes stable.
 
 <figure>
- <img src="{{ site.urlimg }}migration_landscape.jpg" >
+ <img src="{{ site.urlimg }}migration_landscape.jpg" width="200"  >
 </figure>
 
 In real life, this is how we think about cells changing their identity: they might get a small "push," or signal, from their environment to change away from their starting state, and the rules of interaction determine exactly how they change identity. 
