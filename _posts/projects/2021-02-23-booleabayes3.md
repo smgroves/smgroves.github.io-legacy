@@ -132,11 +132,24 @@ This is basically the same as a situation where Carrie will go 50% of the time i
 
 At the end of the previous post, we used tables to "move through different states" and figure out who was going to the party. Another way to visualize this is like below:
 
+<figure>
+ <img src="{{ site.urlimg }}migration_party.jpg" >
+</figure>
+
+
 We started at some (random) starting state, and then slowly updated our knowledge of who was going and who was not until our knowledge didn't change anymore. In the picture above, we "move" from one state to another, slowly updating them, until we reach a state where we don't move anymore.
 
 We do a similar thing with these rules for our transcription factor network, now moving through "gene expression space," where transcription factor expression for each gene can be ON (1) or OFF (0).  
 
+<figure>
+ <img src="{{ site.urlimg }}migration.jpg" >
+</figure>
+
 The final piece of the BooleaBayes algorithm is to simulate this movement through the gene expression space. You can think of it this way: if a cell happened to find itself in a state that was "not allowed," according to the rules, it will quickly move away from that state towards a more stable one, where it is stable. This is like a ball at the top of the hill (in the first post) rolling down to a valley and coming to rest. When we simulate a system, we use the rules we just found, along with some starting state (that probably is meaningful biologically), and we watch where the cell moves until it becomes stable.
+
+<figure>
+ <img src="{{ site.urlimg }}migration_landscape.jpg" >
+</figure>
 
 In real life, this is how we think about cells changing their identity: they might get a small "push," or signal, from their environment to change away from their starting state, and the rules of interaction determine exactly how they change identity. 
 
