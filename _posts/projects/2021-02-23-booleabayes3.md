@@ -63,7 +63,7 @@ Similar to our party example above, if we have many "samples," in this case with
 
 We'll consider a simple transcription factor network with only 4 genes, A, B, C, and D:
 <figure>
- <img src="{{ site.urlimg }}4_node_network.jpg" >
+ <img src="{{ site.urlimg }}4_node_network.jpg" width="600" class = 'center'>
 </figure>
 
 We also have data that tells us, for RNA sequenced from different samples (which could be different people, tumors, mice, etc), which transcription factors are highly expressed in that sample and which are low. We'll simplify this, as we did above, to two options: ON or OFF, yes or no, 1 or 0. So each sample data point will look something like this:
@@ -121,10 +121,10 @@ Our solution is pretty easy. Even though we eventually want to describe everythi
 
 This is basically the same as a situation where Carrie will go 50% of the time if Daniel goes-- if Daniel is going, she flips a coin to decide; if he isn't going, she still won't go either.
 
-At the end of the previous post, we used tables to "move through different states" and figure out who was going to the party. Another way to visualize this is like below:
+At the end of the previous post, we used tables and state transition graphs to "move through different states" and figure out who was going to the party. Another way to visualize this is like below:
 
 <figure>
- <img src="{{ site.urlimg }}migration_party.jpg" width="200" >
+ <img src="{{ site.urlimg }}migration_party.jpg" width="600" class = 'center'>
 </figure>
 
 
@@ -139,7 +139,7 @@ We do a similar thing with these rules for our transcription factor network, now
 The final piece of the BooleaBayes algorithm is to simulate this movement through the gene expression space. You can think of it this way: if a cell happened to find itself in a state that was "not allowed," according to the rules, it will quickly move away from that state towards a more stable one, where it is stable. This is like a ball at the top of the hill (in the first post) rolling down to a valley and coming to rest. When we simulate a system, we use the rules we just found, along with some starting state (that probably is meaningful biologically), and we watch where the cell moves until it becomes stable.
 
 <figure>
- <img src="{{ site.urlimg }}migration_landscape.jpg" width="200"  >
+ <img src="{{ site.urlimg }}migration_landscape.jpg" width="600" class = 'center' >
 </figure>
 
 In real life, this is how we think about cells changing their identity: they might get a small "push," or signal, from their environment to change away from their starting state, and the rules of interaction determine exactly how they change identity. 
