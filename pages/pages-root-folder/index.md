@@ -15,7 +15,7 @@ widget1:
 widget2:
   title: "Broader Impact"
   url: 'http://smgroves.github.io/impact/'
-  image: widget-2.jpg
+  image: cpb_retreat.jpg
   text: 'See my mentorship and community service, or browse my course lectures and blog posts.'
 widget3:
   title: "Current Research"
