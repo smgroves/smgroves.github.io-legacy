@@ -102,7 +102,7 @@ If we have enough samples, we can fill in all the nodes!
 
 Even though this "rule" isn't in English, like our party rules were, it gives us the same information: for every possible combination of ON and OFF (going vs. not going) of our parent nodes (friends), we know what will happen to some affected gene (person of interest). So if we have a rule like this for each node in the network, we've solved our problem! We know which transcription factors will turn on ("who goes to the party") no matter what configuration of ON and OFF we start with. 
 
-Not so fast! you say. What happens if two samples don't agree?
+Not so fast! you say. What happens if two samples don't agree? This might happen when a cell is in the process of changing its identity (phenotypically transitioning), multiple similar cell types are stable and thus found in the sample data, or it might just be due to noise in the system. 
 
 <figure>
  <img src="{{ site.urlimg }}disagree.jpg" >
