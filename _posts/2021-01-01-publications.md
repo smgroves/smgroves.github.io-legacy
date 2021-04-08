@@ -18,11 +18,10 @@ header:
 
 <div class="row t30">
     <div class="medium-4 columns">
-        <img src="{{ site.urlimg }}cancercell.jpg" alt="">
-        <p>Gay, C. M., Stewart, A., Park, E.M., Diao, L., <b>Groves, S.M.</b> et al.
-(2021) Patterns of transcription factor programs and immune pathway
-activation define four major subtypes of SCLC with distinct therapeutic
-vulnerabilities. <i>Cancer Cell</i>, <a href="https://www.sciencedirect.com/science/article/abs/pii/S1535610820306620?via%3Dihub">doi:10.1016/j.ccell.2020.12.014.</a></p>
+            <img src="{{ site.urlimg }}jto_april.png" alt="">
+        <p>Thomas,P.L., <b>Groves, S.M.</b> et al.
+(2021) Beyond PD-L1: B7-H6 emerges as a potential immunotherapy target in small cell lung cancer <i>Journal of Thoracic Oncology</i>, <a href="https://www.jto.org/article/S1556-0864(21)02066-9/pdf">doi:10.1016/j.jtho.2021.03.011.</a></p>
+        
     </div><!-- /.medium-4.columns -->
     <div class="medium-4 columns">
         <img src="{{ site.urlimg }}ploscb.jpg" alt="">
@@ -38,11 +37,14 @@ electron scattering data with a small proton radius. <i>Physics Review C</i>,
 93, <a href="https://journals.aps.org/prc/abstract/10.1103/PhysRevC.93.065207">doi:10.1103/PhysRevC.93.065207.</a></p>
     </div><!-- /.medium-4.columns -->
 </div><!-- /.row -->
+
 <div class="row t30">
     <div class="medium-4 columns">
-        <img src="{{ site.urlimg }}jto_april.png" alt="">
-        <p>Portia Thomas, <b>Groves, S.M.</b> et al.
-(2021) Beyond PD-L1: B7-H6 emerges as a potential immunotherapy target in small cell lung cancer <i>Journal of Thoracic Oncology</i>, <a href="https://www.jto.org/article/S1556-0864(21)02066-9/pdf">doi:10.1016/j.jtho.2021.03.011.</a></p>
+<img src="{{ site.urlimg }}cancercell.jpg" alt="">
+        <p>Gay, C. M., Stewart, A., Park, E.M., Diao, L., <b>Groves, S.M.</b> et al.
+(2021) Patterns of transcription factor programs and immune pathway
+activation define four major subtypes of SCLC with distinct therapeutic
+vulnerabilities. <i>Cancer Cell</i>, <a href="https://www.sciencedirect.com/science/article/abs/pii/S1535610820306620?via%3Dihub">doi:10.1016/j.ccell.2020.12.014.</a></p>
     </div><!-- /.medium-4.columns -->
 </div><!-- /.row -->
 
