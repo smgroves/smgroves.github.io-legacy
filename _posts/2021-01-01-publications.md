@@ -17,7 +17,6 @@ header:
 <!--more-->
 
 <div class="row t30">
-    </div><!-- /.medium-4.columns -->
     <div class="medium-4 columns">
         <img src="{{ site.urlimg }}rpma.jpg" alt="">
         <p>Olsen, R. R., Ireland, A.S., Kastner, D.W., <b>Groves, S.M.</b> et al.
