@@ -25,7 +25,6 @@ Advisors: Vito Quaranta, M.D., and Scott Hiebert, Ph.D.
 Advisor: Vito Quaranta, M.D., Professor of Biochemistry and
 Pharmacology
 
-
 2012-2016 | Bachelors of Science in Physics and Mathematics, \
  **College of William and Mary**, Williamsburg, VA
 Senior Thesis Advisor: John B. Delos, Ph.D., Professor of Physics
