@@ -14,19 +14,23 @@ header:
 ## Highlighted Publications
 
 <div class="row t30">
-        <div class="medium-4 columns">
- <img src="{{ site.urlimg }}ploscb.jpg" alt="">
-        <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b><sup>*</sup>, et al. (2019). Systems-level network
-modeling of Small Cell Lung Cancer subtypes identifies master regulators
-and destabilizers. <i>PLOS Comp Bio</i> 15,
- <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007343">doi:10.1371/journal.pcbi.1007343.</a></p>
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}cell_sys.png" alt="">
+                <p><b>Groves, S.M.</b>, et al. (2022).  Archetype tasks link intratumoral heterogeneity to plasticity and cancer hallmarks in small cell lung cancer. <i>Cell Systems</i> <a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00313-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2405471222003131%3Fshowall%3Dtrue">doi: 10.1016/j.cels.2022.07.006 </a></p>
+        
+    </div><!-- /.medium-4.columns -->
+<div class="medium-4 columns">
+    <img src="{{ site.urlimg }}ploscb.jpg" alt="">
+    <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b><sup>*</sup>, et al. (2019). Systems-level network modeling of Small Cell Lung Cancer subtypes identifies master regulators and destabilizers. <i>PLOS Comp Bio</i> 15, <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007343">doi:10.1371/journal.pcbi.1007343.</a></p>
     </div><!-- /.medium-4.columns -->
 
 </div><!-- /.row -->
 
 ## Full Publication List
 
-<p> <b>Groves, S.M.</b>, Ildefonso, G.V., McAtee, C.O., Ozawa, P.M.M., Ireland, A.S., Stauffer, P.E., Wasdin, P.T., Huang, X., Qiao, Y., Lim, J.S., et al. (2022). Archetype tasks link intratumoral heterogeneity to plasticity and cancer hallmarks in small cell lung cancer. <i>Cell Systems</i><a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00313-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2405471222003131%3Fshowall%3Dtrue">doi: 10.1016/j.cels.2022.07.006 </a></p>
+<p><b>Groves, S.M.</b>, et al. (2022) Analysis of transcriptome datasets reveals involvement of epithelial-mesenchymal transition genes in small cell lung cancer phenotypic plasticity. <i>BioRxiv</i> <a href="https://www.biorxiv.org/content/10.1101/2022.09.09.507376v1">doi: 10.1101/2022.09.09.507376</a></p> 
+
+<p> <b>Groves, S.M.</b>, et al. (2022). Archetype tasks link intratumoral heterogeneity to plasticity and cancer hallmarks in small cell lung cancer. <i>Cell Systems</i><a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00313-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2405471222003131%3Fshowall%3Dtrue">doi: 10.1016/j.cels.2022.07.006 </a></p>
 
 <p>Olsen, R. R., Ireland, A.S., Kastner, D.W., <b>Groves, S.M.</b> et al.
 (2021) ASCL1 represses a SOX9+ neural crest stem-like state in small cell lung cancer. <i>Genes & Development</i>
@@ -43,7 +47,7 @@ vulnerabilities. <i>Cancer Cell</i>, <a href="https://www.sciencedirect.com/scie
 <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b><sup>*</sup>, et al. (2019). Systems-level network
 modeling of Small Cell Lung Cancer subtypes identifies master regulators
 and destabilizers. <i>PLOS Comp Bio</i> 15,
- <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007343">doi:10.1371/journal.pcbi.1007343.</a></p> \* co-first authors
+ <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007343">doi:10.1371/journal.pcbi.1007343.</a></p> * co-first authors
 
 
 <p>Griffioen, K., Carlson, C., <b>Maddox, S</b> (2016). Consistency of
