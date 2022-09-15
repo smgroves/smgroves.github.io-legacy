@@ -16,17 +16,19 @@ permalink: "/about/education/"
 ---
 
 ## Education
-2022-Current | Post-doctoral Research Trainee in Cancer Systems Biology, **Vanderbilt University**, Nashville, TN
-Advisors: Drs. Vito Quaranta, M.D., and Scott Hiebert, Ph.D.
+2022-Current | Post-doctoral Research Trainee in Cancer Systems Biology, \
+**Vanderbilt University**, Nashville, TN \
+Advisors: Vito Quaranta, M.D., and Scott Hiebert, Ph.D.
 
-2016-2022 | PhD Candidate in Chemical and Physical Biology, **Vanderbilt
-University**, Nashville, TN
-Advisor: Dr. Vito Quaranta, M.D., Professor of Biochemistry and
+2016-2022 | PhD Candidate in Chemical and Physical Biology, Systems Biology Track, \
+**Vanderbilt University**, Nashville, TN \
+Advisor: Vito Quaranta, M.D., Professor of Biochemistry and
 Pharmacology
 
 
-2012-2016 | Bachelors of Science in Physics and Mathematics, **College
-of William and Mary**, Williamsburg, VA
+2012-2016 | Bachelors of Science in Physics and Mathematics, \
+ **College of William and Mary**, Williamsburg, VA
+Senior Thesis Advisor: John B. Delos, Ph.D., Professor of Physics
 
 
 ## Research Experience

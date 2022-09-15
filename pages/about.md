@@ -27,5 +27,5 @@ Welcome to my site! I am currently a post-doctoral researcher studying cancer sy
 <b>2016-2017</b>: BIDS (Vanderbilt Training Program in Big Biomedical Data) Science Trainee \
 <b>2017</b>: Vanderbilt Graduate School Travel Grant to Present Research \
 <b>2012-2016</b>: James Monroe Scholar, College of William & Mary \
-<b>2012-2016</b>: Academic Dean's List, College of William & Mary \
+<b>2012-2016</b>: Academic Dean's List, College of William & Mary 
 
