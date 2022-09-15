@@ -9,7 +9,7 @@ header:
 ---
 
 
-Welcome to my site! I am currently a post-doctoral researcher studying cancer systems biology at Vanderbilt University. I focus on data analysis and computational modeling of phenotypic transitions in Small Cell Lung Cancer. After receiving a B.S. in physics and math from The College of William & Mary in 2016, I entered Vanderbilt via their quantitative and chemical biology program and completed my PhD in the Quaranta Lab in March 2022. I love that my research allows me to apply physics and math to biological problems.
+Welcome to my site! I am currently a post-doctoral researcher studying cancer systems biology at Vanderbilt University. I focus on data analysis and computational modeling of phenotypic transitions in Small Cell Lung Cancer. After receiving a B.S. in physics and math from The College of William & Mary in 2016, I entered Vanderbilt via their quantitative and chemical biology program and completed my PhD in the Quaranta Lab in March 2022. I consider myself a physicist by training and a data scientist by practice. My research experiences in undergrad, graduate school, and my post-doc allow me to combine these identities to approach complex biological problems through the analysis and modeling of and high-dimensional data.
 
 <ul>
     {% for post in site.categories.about %}

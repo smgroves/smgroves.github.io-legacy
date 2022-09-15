@@ -16,8 +16,10 @@ permalink: "/about/education/"
 ---
 
 ## Education
+2022-Current | Post-doctoral Research Trainee in Cancer Systems Biology, **Vanderbilt University**, Nashville, TN
+Advisors: Drs. Vito Quaranta, M.D., and Scott Hiebert, Ph.D.
 
-Current | PhD Candidate in Chemical and Physical Biology, **Vanderbilt
+2016-2022 | PhD Candidate in Chemical and Physical Biology, **Vanderbilt
 University**, Nashville, TN
 Advisor: Dr. Vito Quaranta, M.D., Professor of Biochemistry and
 Pharmacology
@@ -29,15 +31,32 @@ of William and Mary**, Williamsburg, VA
 
 ## Research Experience
 
-#### Phenotypic Plasticity in Small Cell Lung Cancer
-Current | Graduate Researcher at Vanderbilt University, Nashville, TN \
-*Thesis Laboratory* 
+#### 
+2022-Current | Postdoctoral Researcher in the Quaranta and Hiebert Labs at Vanderbilt University, Nashville, TN \
+• Facilitated collaboration between two labs at Vanderbilt to plan experimental design and coordinate
+omics data collection
+• Analyzed chromatin accessibility and transcriptomics datasets (scATAC-seq & scRNA-seq) to
+understand epigenetic regulation of lung cancer phenotypes
 
-#### Laboratory Rotations
+
+#### Network Control of Cell Identity and Plasticity in Small Cell Lung Cancer
+2017-2022 | Graduate Researcher in the Quaranta Lab at Vanderbilt University, Nashville, TN \
+*Graduate Thesis Laboratory* 
+- Applied feature selection methods to transcriptomics data in lung cancer to identify genes related to
+phenotypes of interest using PCA, Linear Discriminant Analysis, and SVM models (Python)
+- Encoded and applied a network inference algorithm to transcriptomics datasets to predict epigenetic
+regulation and stability of phenotypes of lung cancer using Boolean networks and Bayesian inference
+- Developed a bioinformatics pipeline for analyzing changes in cell identity in lung cancer and applied it to
+scRNA-seq data using Markov Chain models (Python and R)
+- Predicted outcomes for lung cancer patients based on phenotype using archetypal analysis and survival
+analysis (Python)
+
+
+#### Graduate Program Laboratory Rotations
 2016-2017 | Graduate Researcher at Vanderbilt University, Nashville, TN\
 Completed four 8-week rotations in labs that were interested in myosin tracking to tips of microvilli, effect of ECM stiffness on cancer cell growth, modeling of drug-induced dynamics in melanoma, and fetal membrane developmental dynamics.
 
-#### Senior Thesis: Apnea Analysis in Preterm Infants
+#### Undergraduate Senior Thesis: Apnea Analysis in Preterm Infants
 2015-2016 | Undergraduate Researcher at College of William and Mary,
 Williamsburg, VA  \
 Programmed a biophysical ‘Query User Data Interface’ in MATLAB for the Apnea of Prematurity group at UVA and William and Mary. The goal of this project was to streamline data acquirement for the neonatal intensive care unit at UVA.
