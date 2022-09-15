@@ -16,12 +16,11 @@ header:
 <div class="row t30">
     <div class="medium-4 columns">
         <img src="{{ site.urlimg }}cell_sys.png" alt="">
-                <p><b>Groves, S.M.</b>, et al. (2022).  Archetype tasks link intratumoral heterogeneity to plasticity and cancer hallmarks in small cell lung cancer. <i>Cell Systems</i> <a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00313-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2405471222003131%3Fshowall%3Dtrue">doi: 10.1016/j.cels.2022.07.006 </a></p>
-        
+                <p><b>Groves, S.M., et al. (2022).</b> In this publication, we use a combination of computational analyses on bulk and single-cell RNA-sequencing data in SCLC to place tumor cells into a phenotypic space bounded by archetypes that optimize particular biological tasks. We find that cells in this space trade-off optimization of these tasks to promote tumor growth and survival. This analysis is complemented by a trajectory inference algorithm and Markov chain modeling in scRNA-seq datasets, where SCLC cells are shown to trade-off between these tasks to move through the phenotypic space. I developed a computational toolbox, <b>Mazebox</b>, for these analyses. </p>
     </div><!-- /.medium-4.columns -->
 <div class="medium-4 columns">
     <img src="{{ site.urlimg }}ploscb.jpg" alt="">
-    <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b><sup>*</sup>, et al. (2019). Systems-level network modeling of Small Cell Lung Cancer subtypes identifies master regulators and destabilizers. <i>PLOS Comp Bio</i> 15, <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007343">doi:10.1371/journal.pcbi.1007343.</a></p>
+    <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b><sup>*</sup>, et al. (2019). In this publication, we develop <b>BooleaBayes</b></p>
     </div><!-- /.medium-4.columns -->
 
 </div><!-- /.row -->
