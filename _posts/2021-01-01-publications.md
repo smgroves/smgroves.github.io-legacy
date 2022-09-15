@@ -12,7 +12,7 @@ header:
     image_fullwidth: "header_4.jpg"
 ---
 
-## Peer-reviewed Publications
+<!-- ## Peer-reviewed Publications
 
 <!--more-->
 
@@ -68,4 +68,4 @@ Archetypes. <i>BioRxiv</i> <a href="https://www.biorxiv.org/content/10.1101/2021
 </div><!-- /.row -->
 
 
-\* co-authors
+\* co-authors -->
