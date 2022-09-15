@@ -9,7 +9,7 @@ header:
 ---
 
 
-Welcome to my site! I am currently a grad student in a cancer systems biology lab at Vanderbilt University. I study phenotypic transitions in Small Cell Lung Cancer. After receiving a B.S. in physics and math from The College of William and Mary, I entered Vanderbilt via their quantitative and chemical biology program. I currently am a PhD candidate in the Quaranta Lab, and I love that my project requires me to apply physics and math to biological problems.
+Welcome to my site! I am currently a post-doctoral researcher studying cancer systems biology at Vanderbilt University. I focus on data analysis and computational modeling of phenotypic transitions in Small Cell Lung Cancer. After receiving a B.S. in physics and math from The College of William & Mary in 2016, I entered Vanderbilt via their quantitative and chemical biology program and completed my PhD in the Quaranta Lab in March 2022. I love that my research allows me to apply physics and math to biological problems.
 
 <ul>
     {% for post in site.categories.about %}
@@ -19,11 +19,13 @@ Welcome to my site! I am currently a grad student in a cancer systems biology la
 
 
 
-## Funding
+## Funding and Awards
+<b>2022-Current</b>: NIH F32 Post-doctoral Training Grant Awardee
+<b>August 2021</b>: Podium Prsentation Award: Cancer Systems Biology Consortium Junior Investigators Annual Meeting
+<b>2017-2021</b>:  NSF Graduate Research Fellowships Program Fellow
+<b>2019</b>: Vanderbilt Graduate School Travel Grant to Present Research
+<b>2016-2017</b>: BIDS (Vanderbilt Training Program in Big Biomedical Data) Science Trainee
+<b>2017</b>: Vanderbilt Graduate School Travel Grant to Present Research
+<b>2012-2016</b>: James Monroe Scholar, College of William & Mary
+<b>2012-2016</b>: Academic Dean's List, College of William & Mary
 
-I am grateful to have obtained my own funding for my time in graduate school. For my second year, I received funding from a Vanderbilt Training grant from the Bioinformatics department. I then was honored to receive the NSF Graduate Research Fellowship (GRFP), for which I am a 5-year fellow (provides funding for 3 years).
-
-2016-2017: BIDS (Vanderbilt Training Program in Big Biomedical Data) Science Trainee
-
-
-2017-2021:  NSF Graduate Research Fellowships Program Fellow
