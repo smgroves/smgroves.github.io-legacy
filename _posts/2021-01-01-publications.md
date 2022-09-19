@@ -15,7 +15,7 @@ header:
 
 <div class="row t30">
     <div class="small-3 columns">
-        <img src="{{ site.urlimg }}cell_sys.png" alt="">
+        <a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00313-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2405471222003131%3Fshowall%3Dtrue"><img src="{{ site.urlimg }}cell_sys.png" alt=""></a>
     </div>
     <div class="small-9 columns">
         <p><b>Groves, S.M., et al. (2022).</b> In this publication, we use a combination of computational analyses on bulk and single-cell RNA-sequencing data in SCLC to place tumor cells into a phenotypic space bounded by archetypes that optimize particular biological tasks. We find that cells in this space trade-off optimization of these tasks to promote tumor growth and survival. This analysis is complemented by a trajectory inference algorithm and Markov chain modeling in scRNA-seq datasets, where SCLC cells are shown to trade-off between these tasks to move through the phenotypic space. I developed a computational toolbox, <b>Mazebox</b>, for these analyses. </p>
@@ -23,12 +23,11 @@ header:
 </div>
 <div class="row t30">
     <div class="medium-3 columns">
-        <img src="{{ site.urlimg }}ploscb.jpg" alt="">
+        <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007343"><img src="{{ site.urlimg }}ploscb.jpg" alt=""></a>
     </div>
     <div class="medium-9 columns">
     <p><b>Wooten, D.<sup>*</sup>, Groves, S.M.<sup>*</sup>, et al. (2019).</b> In this publication, we develop <b>BooleaBayes</b>, a network inference tool. BooleaBayes infers pseudo-Boolean rules of a transcription factor (TF) network (or gene regulatory network) and simulates the network to find attractors and predict destabilizing perturbations. We use this tool in Small Cell Lung Cancer to find four attractor states that match experimental data, and then we predict TFs that, when activated or silenced, will push cells away from a specific attractor state.</p>
     </div><!-- /.medium-4.columns -->
-</div><!-- /.row -->
 </div>
 
 ## Full Publication List
