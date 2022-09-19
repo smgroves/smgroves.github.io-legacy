@@ -26,9 +26,10 @@ header:
         <img src="{{ site.urlimg }}ploscb.jpg" alt="">
     </div>
     <div class="medium-9 columns">
-    <b><p>Wooten, D.<sup>*</sup>, Groves, S.M.<sup>*</sup>, et al. (2019).</b> In this publication, we develop <b>BooleaBayes</b></p>, a network inference tool. BooleaBayes infers pseudo-Boolean rules of a transcription factor (TF) network (or gene regulatory network) and simulates the network to find attractors and predict destabilizing perturbations. We use this tool in Small Cell Lung Cancer to find four attractor states that match experimental data, and then we predict TFs that, when activated or silenced, will push cells away from a specific attractor state.
+    <p><b>Wooten, D.<sup>*</sup>, Groves, S.M.<sup>*</sup>, et al. (2019).</b> In this publication, we develop <b>BooleaBayes</b>, a network inference tool. BooleaBayes infers pseudo-Boolean rules of a transcription factor (TF) network (or gene regulatory network) and simulates the network to find attractors and predict destabilizing perturbations. We use this tool in Small Cell Lung Cancer to find four attractor states that match experimental data, and then we predict TFs that, when activated or silenced, will push cells away from a specific attractor state.</p>
     </div><!-- /.medium-4.columns -->
 </div><!-- /.row -->
+</div>
 
 ## Full Publication List
 
