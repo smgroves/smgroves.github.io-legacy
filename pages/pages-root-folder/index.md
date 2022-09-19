@@ -8,20 +8,20 @@ layout: frontpage
 header:
   image_fullwidth: header_home.jpg
 widget1:
-  title: "Contributions to Science"
-  url: 'http://smgroves.github.io/contributions/'
+  title: "Projects"
+  url: 'http://smgroves.github.io/projects/'
   image: widget-1-302x182.jpg
-  text: 'See my publications, presentations, and computational tools.'
+  text: 'See the computational tools I have developed.'
 widget2:
-  title: "Broader Impact"
-  url: 'http://smgroves.github.io/impact/'
+  title: "About Me"
+  url: 'http://smgroves.github.io/about/'
   image: cpb_retreat.jpg
-  text: 'See my mentorship and community service, or browse my course lectures and blog posts.'
+  text: 'I am currently a postdoctoral researcher at Vanderbilt Univeristy in the lab of Vito Quaranta, M.D.'
 widget3:
-  title: "Current Research"
-  url: 'http://smgroves.github.io/about/current/'
+  title: "Blog"
+  url: 'http://smgroves.github.io/blog/'
   image: widget-github-303x182.jpg
-  text: 'I am currently a PhD candidate at Vanderbilt University in the lab of Vito Quaranta.'
+  text: 'Check out my lectures, blog posts, and project descriptions.'
 #
 # Use the call for action to show a button on the frontpage
 #
