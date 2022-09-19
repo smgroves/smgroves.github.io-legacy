@@ -50,9 +50,10 @@ vulnerabilities. <i>Cancer Cell</i>, <a href="https://www.sciencedirect.com/scie
 <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b><sup>*</sup>, et al. (2019). Systems-level network
 modeling of Small Cell Lung Cancer subtypes identifies master regulators
 and destabilizers. <i>PLOS Comp Bio</i> 15,
- <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007343">doi:10.1371/journal.pcbi.1007343.</a></p> * co-first authors
-
+ <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007343">doi:10.1371/journal.pcbi.1007343.</a></p> 
 
 <p>Griffioen, K., Carlson, C., <b>Maddox, S</b> (2016). Consistency of
 electron scattering data with a small proton radius. <i>Physics Review C</i>,
 93, <a href="https://journals.aps.org/prc/abstract/10.1103/PhysRevC.93.065207">doi:10.1103/PhysRevC.93.065207.</a></p>
+
+ /* Authors contributed equally to this work
