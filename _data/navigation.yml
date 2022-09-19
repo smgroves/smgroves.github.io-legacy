@@ -28,7 +28,7 @@
   - title: "MazeBox"
     url: "/projects/mazebox/"
 
-- title: All Posts
+- title: Blog Posts
   url: "/blog/"
   side: left
   dropdown:
