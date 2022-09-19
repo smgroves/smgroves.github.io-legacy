@@ -27,13 +27,12 @@ header:
 
 ## Full Publication List
 
-<p><b>Groves, S.M.</b>, et al. (2022) Analysis of transcriptome datasets reveals involvement of epithelial-mesenchymal transition genes in small cell lung cancer phenotypic plasticity. <i>BioRxiv</i> <a href="https://www.biorxiv.org/content/10.1101/2022.09.09.507376v1">doi: 10.1101/2022.09.09.507376</a></p> 
+<p><b>Groves, S.M.</b>, et al. (2022) Analysis of transcriptome datasets reveals involvement of epithelial-mesenchymal transition genes in small cell lung cancer phenotypic plasticity. <i>BioRxiv,</i> <a href="https://www.biorxiv.org/content/10.1101/2022.09.09.507376v1">doi: 10.1101/2022.09.09.507376</a></p> 
 
-<p> <b>Groves, S.M.</b>, et al. (2022). Archetype tasks link intratumoral heterogeneity to plasticity and cancer hallmarks in small cell lung cancer. <i>Cell Systems</i><a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00313-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2405471222003131%3Fshowall%3Dtrue">doi: 10.1016/j.cels.2022.07.006 </a></p>
+<p> <b>Groves, S.M.</b>, et al. (2022). Archetype tasks link intratumoral heterogeneity to plasticity and cancer hallmarks in small cell lung cancer. <i>Cell Systems,</i> <a href="https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00313-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2405471222003131%3Fshowall%3Dtrue">doi: 10.1016/j.cels.2022.07.006 </a></p>
 
 <p>Olsen, R. R., Ireland, A.S., Kastner, D.W., <b>Groves, S.M.</b> et al.
-(2021) ASCL1 represses a SOX9+ neural crest stem-like state in small cell lung cancer. <i>Genes & Development</i>
- <a href="http://genesdev.cshlp.org/content/35/11-12/847.short">doi:10.1101/gad.348295.121.</a></p>
+(2021) ASCL1 represses a SOX9+ neural crest stem-like state in small cell lung cancer. <i>Genes & Development,</i> <a href="http://genesdev.cshlp.org/content/35/11-12/847.short">doi:10.1101/gad.348295.121.</a></p>
 
  <p>Thomas,P.L., <b>Groves, S.M.</b> et al.
 (2021) Beyond PD-L1: B7-H6 emerges as a potential immunotherapy target in small cell lung cancer <i>Journal of Thoracic Oncology</i>, <a href="https://www.jto.org/article/S1556-0864(21)02066-9/pdf">doi:10.1016/j.jtho.2021.03.011.</a></p>
