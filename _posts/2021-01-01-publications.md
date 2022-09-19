@@ -14,19 +14,19 @@ header:
 ## Highlighted Publications
 
 <div class="row t30">
-    <div class="medium-4 columns">
+    <div class="small-3 columns">
         <img src="{{ site.urlimg }}cell_sys.png" alt="">
     </div>
-    <div class="medium-4 columns">
+    <div class="small-9 columns">
         <p><b>Groves, S.M., et al. (2022).</b> In this publication, we use a combination of computational analyses on bulk and single-cell RNA-sequencing data in SCLC to place tumor cells into a phenotypic space bounded by archetypes that optimize particular biological tasks. We find that cells in this space trade-off optimization of these tasks to promote tumor growth and survival. This analysis is complemented by a trajectory inference algorithm and Markov chain modeling in scRNA-seq datasets, where SCLC cells are shown to trade-off between these tasks to move through the phenotypic space. I developed a computational toolbox, <b>Mazebox</b>, for these analyses. </p>
     </div><!-- /.medium-4.columns -->
 </div>
 <div class="row t30">
-    <div class="medium-4 columns">
+    <div class="medium-3 columns">
         <img src="{{ site.urlimg }}ploscb.jpg" alt="">
     </div>
-    <div class="medium-4 columns">
-    <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b><sup>*</sup>, et al. (2019). In this publication, we develop <b>BooleaBayes</b></p>
+    <div class="medium-9 columns">
+    <b><p>Wooten, D.<sup>*</sup>, Groves, S.M.<sup>*</sup>, et al. (2019).</b> In this publication, we develop <b>BooleaBayes</b></p>, a network inference tool. BooleaBayes infers pseudo-Boolean rules of a transcription factor (TF) network (or gene regulatory network) and simulates the network to find attractors and predict destabilizing perturbations. We use this tool in Small Cell Lung Cancer to find four attractor states that match experimental data, and then we predict TFs that, when activated or silenced, will push cells away from a specific attractor state.
     </div><!-- /.medium-4.columns -->
 </div><!-- /.row -->
 
