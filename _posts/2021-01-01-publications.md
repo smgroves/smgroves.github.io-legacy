@@ -56,4 +56,4 @@ and destabilizers. <i>PLOS Comp Bio</i> 15,
 electron scattering data with a small proton radius. <i>Physics Review C</i>,
 93, <a href="https://journals.aps.org/prc/abstract/10.1103/PhysRevC.93.065207">doi:10.1103/PhysRevC.93.065207.</a></p>
 
- /* Authors contributed equally to this work
+ \* Authors contributed equally to this work

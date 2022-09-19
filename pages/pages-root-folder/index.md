@@ -36,7 +36,7 @@ widget3:
 #   url: https://tinyletter.com/smgroves
 #   text: Inform me about new updates and publications ›
 #   style: alert
-# permalink: /index.html
+permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
 # this page as active in the topbar navigation
