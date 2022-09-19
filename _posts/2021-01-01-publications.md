@@ -16,13 +16,18 @@ header:
 <div class="row t30">
     <div class="medium-4 columns">
         <img src="{{ site.urlimg }}cell_sys.png" alt="">
-                <p><b>Groves, S.M., et al. (2022).</b> In this publication, we use a combination of computational analyses on bulk and single-cell RNA-sequencing data in SCLC to place tumor cells into a phenotypic space bounded by archetypes that optimize particular biological tasks. We find that cells in this space trade-off optimization of these tasks to promote tumor growth and survival. This analysis is complemented by a trajectory inference algorithm and Markov chain modeling in scRNA-seq datasets, where SCLC cells are shown to trade-off between these tasks to move through the phenotypic space. I developed a computational toolbox, <b>Mazebox</b>, for these analyses. </p>
+    </div>
+    <div class="medium-4 columns">
+        <p><b>Groves, S.M., et al. (2022).</b> In this publication, we use a combination of computational analyses on bulk and single-cell RNA-sequencing data in SCLC to place tumor cells into a phenotypic space bounded by archetypes that optimize particular biological tasks. We find that cells in this space trade-off optimization of these tasks to promote tumor growth and survival. This analysis is complemented by a trajectory inference algorithm and Markov chain modeling in scRNA-seq datasets, where SCLC cells are shown to trade-off between these tasks to move through the phenotypic space. I developed a computational toolbox, <b>Mazebox</b>, for these analyses. </p>
     </div><!-- /.medium-4.columns -->
-<div class="medium-4 columns">
-    <img src="{{ site.urlimg }}ploscb.jpg" alt="">
+</div>
+<div class="row t30">
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}ploscb.jpg" alt="">
+    </div>
+    <div class="medium-4 columns">
     <p>Wooten, D.<sup>*</sup>, <b>Groves, S.M.</b><sup>*</sup>, et al. (2019). In this publication, we develop <b>BooleaBayes</b></p>
     </div><!-- /.medium-4.columns -->
-
 </div><!-- /.row -->
 
 ## Full Publication List
