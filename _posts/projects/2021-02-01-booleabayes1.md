@@ -2,7 +2,6 @@
 layout: page-fullwidth
 breadcrumb: true
 
-subheadline:  "Contributions to Science"
 title:  "BooleaBayes Part 1: The Why"
 teaser: "In this first post, I explain why we care about transcription factor networks and how they can help us treat Small Cell Lung Cancer."
 categories:

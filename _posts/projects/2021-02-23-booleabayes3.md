@@ -2,7 +2,6 @@
 layout: page-fullwidth
 breadcrumb: true
 
-subheadline:  "Contributions to Science"
 title:  "BooleaBayes Part 3: Using data to build a network for Small Cell Lung Cancer"
 teaser: "We begin to look at how BooleaBayes, the computational tool developed in the Quaranta lab by David Wooten, PhD and me, can be applied to Small Cell Lung Cancer Data."
 categories:

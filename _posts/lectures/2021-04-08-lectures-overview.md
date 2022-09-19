@@ -1,7 +1,6 @@
 ---
 layout: page
 breadcrumb: true
-subheadline:  "Broader Impact"
 title:  "Lectures"
 teaser: "Presentations and lectures I have given to Vanderbilt University graduate-level courses."
 tags:
