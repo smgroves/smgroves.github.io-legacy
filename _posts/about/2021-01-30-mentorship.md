@@ -1,7 +1,6 @@
 ---
 layout: page
 breadcrumb: true
-subheadline:  "Broader Impact"
 title:  "Mentorship and Service"
 teaser: "Mentorship, professional experiences, & academic and community service."
 categories:
@@ -17,6 +16,18 @@ permalink: "/about/mentorship/"
 ---
 
 ## Teaching and Mentoring Experience
+
+#### Guest Lecturer for Introduction to Bioinformatics
+Fall 2022 | 
+Vanderbilt University \
+Taught two lectures on introduction to analysis of RNA sequencing data, including data generation and data cleaning, exploratory data analysis, and unsupervised learning methods. 
+
+
+#### Teaching Assistant for Scientific Communication in Chemical and Physical Biology (CPB)
+Spring 2022 |
+Vanderbilt University \
+Mentored second year CPBP students in preparing for their qualifying exams by assisting them in grant writing components such as identification of Specific Aims, development of a Research Strategy, and composition of Research Significance and Innovation.
+
 
 #### Mentor for Lab Rotation Student
 Spring 2021 | 

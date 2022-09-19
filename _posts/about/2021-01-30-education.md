@@ -1,7 +1,6 @@
 ---
 layout: page
 breadcrumb: true
-subheadline:  "Research"
 title:  "Education & Research Experience"
 teaser: "Timeline of my education and research experiences."
 categories:
@@ -16,7 +15,7 @@ permalink: "/about/education/"
 ---
 
 ## Education
-2022-Current | Post-doctoral Research Trainee in Cancer Systems Biology, \
+2022-Current | Postdoctoral Research Trainee in Cancer Systems Biology, \
 **Vanderbilt University**, Nashville, TN \
 Advisors: Vito Quaranta, M.D., and Scott Hiebert, Ph.D.
 
@@ -32,26 +31,15 @@ Senior Thesis Advisor: John B. Delos, Ph.D., Professor of Physics
 
 ## Research Experience
 
-#### 
+#### Predicting Drivers of Plasticity in Small Cell Lung Cancer using Sequencing Data Analysis
 2022-Current | Postdoctoral Researcher in the Quaranta and Hiebert Labs at Vanderbilt University, Nashville, TN \
-• Facilitated collaboration between two labs at Vanderbilt to plan experimental design and coordinate
-omics data collection
-• Analyzed chromatin accessibility and transcriptomics datasets (scATAC-seq & scRNA-seq) to
-understand epigenetic regulation of lung cancer phenotypes
+Analyzing chromatin accessibility and transcriptomics datasets (scATAC-seq & scRNA-seq) to understand epigenetic regulation of lung cancer phenotypes. Facilitating collaboration between two labs at Vanderbilt to plan experimental design and coordinate omics data collection. The goal of this project is to combine computational modeling and bioinformatics tools to predict lineage drivers for variant SCLC models. 
 
 
 #### Network Control of Cell Identity and Plasticity in Small Cell Lung Cancer
 2017-2022 | Graduate Researcher in the Quaranta Lab at Vanderbilt University, Nashville, TN \
 *Graduate Thesis Laboratory* 
-- Applied feature selection methods to transcriptomics data in lung cancer to identify genes related to
-phenotypes of interest using PCA, Linear Discriminant Analysis, and SVM models (Python)
-- Encoded and applied a network inference algorithm to transcriptomics datasets to predict epigenetic
-regulation and stability of phenotypes of lung cancer using Boolean networks and Bayesian inference
-- Developed a bioinformatics pipeline for analyzing changes in cell identity in lung cancer and applied it to
-scRNA-seq data using Markov Chain models (Python and R)
-- Predicted outcomes for lung cancer patients based on phenotype using archetypal analysis and survival
-analysis (Python)
-
+Developed and applied a network inference algorithm to determine the epigenetic regulation and stability of phenotypic subtypes of SCLC. Developed a bioinformatics pipeline for analyzing changes in cell identity (scRNA-seq) in classic and variant models of SCLC. Overall, this project led to insights into how intratumoral heterogeneity and plasticity may allow SCLC tumors to overcome therapy and gain resistance.
 
 #### Graduate Program Laboratory Rotations
 2016-2017 | Graduate Researcher at Vanderbilt University, Nashville, TN\
