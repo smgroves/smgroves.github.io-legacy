@@ -12,7 +12,7 @@ permalink: "/projects/"
 widget1:
   title: "BooleaBayes"
   url: 'https://pypi.org/project/booleabayes/'
-  image: widget-1-302x182.jpg
+  image: msapplication_tileimage.png
   text: ' A network inference method to derive and simulate gene regulatory networks from transcriptomics data.'
 widget2:
   title: "Mazebox"
@@ -49,11 +49,11 @@ widget2:
 </div><!-- /.row -->
 
 
-
+<!-- 
 Check out my recently developed projects and computational tools/code that can be applied to your own data. 
 
 <ul>
     {% for post in site.categories.projects %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><stronglist>{{ post.title }}</stronglist></a></li>
     {% endfor %}
-</ul>
+</ul> -->
