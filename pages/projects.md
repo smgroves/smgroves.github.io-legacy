@@ -6,7 +6,8 @@ breadcrumb: true
 subheadline:  "Research"
 title: "Computational Tools and Projects"
 header:
-   image_fullwidth: "header_10.jpg"
+  title: "Sarah Groves"
+   #image_fullwidth: "header_10.jpg"
 permalink: "/projects/"
 widget1:
   title: "BooleaBayes"
