@@ -1,10 +1,10 @@
-- title: "Home"
+- title: "Sarah M. Groves, Ph.D."
   url: "/"
   side: left
 
 - title: "About Me"
   url: "/about/"
-  side: left
+  side: right
   dropdown:
   - title: Current Research
     url: "/about/current/"
@@ -17,11 +17,11 @@
 
 - title: "Publications"
   url: "/publications/"
-  side: left
+  side: right
 
 - title: "Projects"
   url: "/projects/"
-  side: left
+  side: right
   dropdown:
   - title: "BooleaBayes"
     url: "/projects/booleabayes/"
@@ -30,15 +30,15 @@
 
 - title: Blog Posts
   url: "/blog/"
-  side: left
+  side: right
   dropdown:
   - title: "Post Archive"
     url: "/blog/archive/"
 
-- title: "Search"
-  url: "/search/"
-  side: right
+# - title: "Search"
+#   url: "/search/"
+#   side: right
 
-- title: "Contact"
-  url: "/contact/"
-  side: right
+# - title: "Contact"
+#   url: "/contact/"
+#   side: right
