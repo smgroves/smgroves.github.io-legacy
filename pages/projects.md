@@ -5,8 +5,8 @@ breadcrumb: true
 
 subheadline:  "Research"
 title: "Computational Tools and Projects"
-header:
-  title: "Sarah Groves"
+# header:
+  # title: "Sarah Groves"
    #image_fullwidth: "header_10.jpg"
 permalink: "/projects/"
 widget1:
