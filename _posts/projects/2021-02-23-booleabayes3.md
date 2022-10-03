@@ -10,7 +10,6 @@ tags:
     - projects
     - code
     - networks
-    - contributions
     - booleabayes
 header:
     image_fullwidth: "header_12.jpg"

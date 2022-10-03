@@ -10,7 +10,7 @@ tags:
     - projects
     - code
     - networks
-    - contributions
+
 header:
     image_fullwidth: "header_11.jpg"
 permalink: "/projects/booleabayes/"
