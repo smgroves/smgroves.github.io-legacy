@@ -11,8 +11,8 @@ tags:
     - code
     - networks
     - booleabayes
-header:
-    image_fullwidth: "header_12.jpg"
+# header:
+    # image_fullwidth: "header_12.jpg"
 permalink: "/projects/booleabayes/3/"
 ---
 

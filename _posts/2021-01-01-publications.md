@@ -7,8 +7,8 @@ teaser: "Peer-reviewed publications and pre-prints."
 permalink: "/publications/"
 tags:
     - contributions
-header:
-    image_fullwidth: "header_4.jpg"
+# header:
+    # image_fullwidth: "header_4.jpg"
 ---
 ## Highlighted Publications
 

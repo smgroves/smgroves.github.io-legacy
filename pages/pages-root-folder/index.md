@@ -5,8 +5,8 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-header:
-  image_fullwidth: header_home.jpg
+# header:
+  # image_fullwidth: header_home.jpg
 widget1:
   title: "Projects"
   url: 'http://smgroves.github.io/projects/'

@@ -4,8 +4,8 @@ breadcrumb: true
 title: "About Me"
 subheadline: "Who am I?"
 permalink: "/about/"
-header:
-    image_fullwidth: "header_1.jpg"
+# header:
+    # image_fullwidth: "header_1.jpg"
 ---
 
 
