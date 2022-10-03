@@ -17,7 +17,7 @@ widget1:
 widget2:
   title: "Mazebox"
   url: 'https://pypi.org/project/mazebox/'
-  image: cpb_retreat.jpg
+  image: mazebox_ctrp.png
   text: 'A suite of tools for analyzing single-cell transcriptomics data.'
 ---
 
