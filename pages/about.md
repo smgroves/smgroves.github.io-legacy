@@ -5,7 +5,7 @@ title: "About Me"
 subheadline: "Who am I?"
 permalink: "/about/"
 header:
-    background-color: 'teal'
+    # background-color: 'teal'
     # image_fullwidth: "header_1.jpg"
 ---
 
